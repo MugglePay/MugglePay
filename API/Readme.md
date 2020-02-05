@@ -24,14 +24,14 @@ Get your developer API key, manage your crypto orders and invoices with [Merchan
     - [Error Codes](/API/basic/ErrorCodes.md)
     - [Authentication](/API/basic/Authentication.md)
   - Payment API
-    - [Create Order](/API/orders/CreateOrder.md)
-    - [Payment Callback (Webhook)](/API/orders/PaymentCallback.md)
+    - [Create Order](/API/order/CreateOrder.md)
+    - [Payment Callback (Webhook)](/API/order/PaymentCallback.md)
   - In-House API
-    - [Get Order](/API/orders/GetOrder.md)
-    - [Get Orders](/API/orders/GetOrders.md)
-    - [Checkout Order](/API/orders/CheckoutOrder.md)
-    - [Cancel Order](/API/orders/CancelOrder.md)
-    - [Refund](/API/orders/Refund.md)
+    - [Get Order](/API/order/GetOrder.md)
+    - [Get Orders](/API/order/GetOrders.md)
+    - [Checkout Order](/API/order/CheckoutOrder.md)
+    - [Cancel Order](/API/order/CancelOrder.md)
+    - [Refund](/API/order/Refund.md)
   - FAQ
     - [Customer FAQ](/API/faq/CustomerFAQ.md)
     - [Merchants FAQ](/API/faq/MerchantFAQ.md)
