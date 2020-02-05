@@ -198,6 +198,7 @@ request(options, function (error, response, body) {
     },
     "payment_url": "https://invoice.mugglepay.com/invoices?id=94be2b2a-2905-4857-b701-b04e57e84593"
 }
+```
 ### Error Format
 MugglePay Server will always return status 400. If API failed, it will return error_code and error as its object.
 

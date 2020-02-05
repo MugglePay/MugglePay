@@ -1,4 +1,4 @@
-Authentication
+# Authentication
 
 If you want to call the api (CreateOrder) on your website or apps, authentication
 * API Server Side Authentication
