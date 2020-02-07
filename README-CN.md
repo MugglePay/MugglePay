@@ -1,4 +1,4 @@
-简体中文 | [English](./README.md)
+简体中文 | [English](/README.md)
 
 <p align="center">
   <a href=" https://www.mugglepay.com">
@@ -31,21 +31,21 @@ MugglePay是为有在线收款需求的商家提供的数字货币解决方案�
 
 涵盖主流电商平台。5分钟内开启数字货币收款。
 
-### Shopify
-
-中国电商品牌出海优选SaaS平台，全球175个国家100万商家信赖_一站式体验_完善生态系统_集云端建站,库存管理,多渠道销售于一体。
-
 
 <a href="https://medium.com/@mugglepay/mugglepay-crypto-payment-plugin-launches-on-shopify-6904f3c3eca">
 <img src="https://dcdn.mugglepay.com/pay/media/git/shopify.png" height="50px" style="padding-right: 50px;"/>  
 </a>
 
-### WHMCS
-WHMCS是一套国外流行的域名主机管理软件，跟国内众所周知的IDCSystem一样，主要在用户管理、财务管理、域名接口、服务器管理面板接口等方面设计的非常人性化。WHMCS是一套全面支持域名注册管理解析，主机开通管理，VPS开通管理和服务器管理。
+中国电商品牌出海优选SaaS平台，全球175个国家100万商家信赖_一站式体验_完善生态系统_集云端建站,库存管理,多渠道销售于一体。
+
 
 <a href="https://github.com/bitpaydev/bitpayxForWHMCS">
 <img src="https://dcdn.mugglepay.com/pay/media/git/whmcs.png" height="50px" style="padding-right: 50px;"/>
 </a>
+
+WHMCS是一套国外流行的域名主机管理软件，跟国内众所周知的IDCSystem一样，主要在用户管理、财务管理、域名接口、服务器管理面板接口等方面设计的非常人性化。WHMCS是一套全面支持域名注册管理解析，主机开通管理，VPS开通管理和服务器管理。
+
+
 
 ### SSPanel
 

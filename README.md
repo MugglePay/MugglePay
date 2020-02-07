@@ -1,4 +1,4 @@
-English | [简体中文](./Readme-CN.md)
+English | [简体中文](/Readme-CN.md)
 
 <p align="center">
   <a href=" https://www.mugglepay.com">
@@ -31,22 +31,20 @@ Accept Cryptocurrencies now! Integrated payment gateway for cryptocurrencies suc
 
 Offering plugins for all the popular online store. Register and install a plugin to set up MugglePay with your new or pre-existing checkout, in 5 minutes!
 
-### Shopify
-
-Shopify is not just an ecommerce software, Shopify is one of the best ecommerce platform that has everything you need to sell online, on social media, or in person.
-
-
 <a href="https://medium.com/@mugglepay/mugglepay-crypto-payment-plugin-launches-on-shopify-6904f3c3eca">
 <img src="https://dcdn.mugglepay.com/pay/media/git/shopify.png" height="50px" style="padding-right: 50px;"/>  
 </a>
 
-### WHMCS
+Shopify is not just an ecommerce software, Shopify is one of the best ecommerce platform that has everything you need to sell online, on social media, or in person.
 
-Web Hosting Automation Made Easy! All the tools you need to start a web hosting business today.
 
 <a href="https://github.com/bitpaydev/bitpayxForWHMCS">
 <img src="https://dcdn.mugglepay.com/pay/media/git/whmcs.png" height="50px" style="padding-right: 50px;"/>
 </a>
+
+Web Hosting Automation Made Easy! All the tools you need to start a web hosting business today.
+
+
 
 ### SSPanel
 
