@@ -1,3 +1,5 @@
+English | [简体中文](./Readme-CN.md)
+
 <p align="center">
   <a href=" https://www.mugglepay.com">
     <img src="https://dcdn.mugglepay.com/dt/pay/logo/mplogo1.png" />
@@ -11,62 +13,63 @@
 <img src="http://dcdn.mugglepay.com/pay/media/git/git-codecov.png" height="20px" /></a>
 <img src="http://dcdn.mugglepay.com/pay/media/git/git-build.png" height="20px" /></a>
 
-Make Crypto Payment Easy 让数字货币支付更简单
+Make Crypto Payment Easy
 
-## MugglePay商户平台
-MugglePay是为有在线收款需求的商家提供的数字货币解决方案。将MugglePay SDK集成到您的网站/App即可享受安全高效的数字货币收款。
+## MugglePay Merchants
+Accept Cryptocurrencies now! Integrated payment gateway for cryptocurrencies such as Bitcoin and USDT.
 
-## 特点
- - 支持多种主流数字货币：BTC、BTC（Lightning Network）、ETH、USDT、BCH、LTC、EOS
- - 五分钟完成对接
- - 手续费低至0%
+## Payment Features
+ - Accept Cryptocurrencies: BTC, BTC (Lightning Network), ETH, USDT, BCH, LTC, EOS
+ - Integration in 5 minutes
+ - Transaction fee as low as 0%
 
 <p align="center">
 <img src="https://dcdn.mugglepay.com/pay/media/git/cryptos.png" width="250px"/>
 </p>
 
-## 支持平台
+## Shopping Cart Plugins
 
-涵盖主流电商平台。5分钟内开启数字货币收款。
+Offering plugins for all the popular online store. Register and install a plugin to set up MugglePay with your new or pre-existing checkout, in 5 minutes!
 
 ### Shopify
 
-中国电商品牌出海优选SaaS平台，全球175个国家100万商家信赖_一站式体验_完善生态系统_集云端建站,库存管理,多渠道销售于一体。
+Shopify is not just an ecommerce software, Shopify is one of the best ecommerce platform that has everything you need to sell online, on social media, or in person.
 
 
-<a href="https://www.shopify.com/">
+<a href="https://medium.com/@mugglepay/mugglepay-crypto-payment-plugin-launches-on-shopify-6904f3c3eca">
 <img src="https://dcdn.mugglepay.com/pay/media/git/shopify.png" height="50px" style="padding-right: 50px;"/>  
 </a>
 
 ### WHMCS
-WHMCS是一套国外流行的域名主机管理软件，跟国内众所周知的IDCSystem一样，主要在用户管理、财务管理、域名接口、服务器管理面板接口等方面设计的非常人性化。WHMCS是一套全面支持域名注册管理解析，主机开通管理，VPS开通管理和服务器管理。
 
-<a href="https://www.whmcs.com/">
+Web Hosting Automation Made Easy! All the tools you need to start a web hosting business today.
+
+<a href="https://github.com/bitpaydev/bitpayxForWHMCS">
 <img src="https://dcdn.mugglepay.com/pay/media/git/whmcs.png" height="50px" style="padding-right: 50px;"/>
 </a>
 
 ### SSPanel
 
-<a href="https://github.com/Anankke/SSPanel-Uim">
+<a href="https://github.com/bitpaydev/bitpayx/tree/master/bitpayx">
 <img src="https://dcdn.mugglepay.com/pay/media/git/sspanel.png" height="50px" style="padding-right: 50px;"/>
 </a>
 
-### 风铃发卡
-<a href="https://github.com/Tai7sy/card-system">
-风铃发卡
-</a>,发卡程序，界面 UI 非常美观，致力于便捷、绿色、安全、快速的销售和购买体验。
+### Card-System
+
+<a href="https://github.com/Tai7sy/card-gateway/tree/master/Pay/MugglePay">
+Card System
+</a>, One-Stop Online Sales Store, the interface UI is very beautiful, convenient, green, secure and fast sales and purchase experience.
 
 
+## Merchant Onboard
+1. Register [MugglePay Merchant Portal](https://merchants.mugglepay.com/user/register?ref=MP37E56967)：
+2. Generate credentials (Develop Keys and Secrets) at Portal
+3. Add credentials to your online store.
 
-## 安装流程
-1. 注册[MugglePay商家账户](https://merchants.mugglepay.com/user/register?ref=MP37E56967)：
-2. 在开发者中心中获取私钥
-3. 根据使用的不同面板进行对接
 
+## Merchant API
 
-## 商户API文档
-
-[查看更多API简介](/API)
+[More APIs](/API)
   - API Overview
     - [Getting Started](/API/faq/GetStarted.md)
     - [Overview](/API/faq/Overview.md)
@@ -86,36 +89,36 @@ WHMCS是一套国外流行的域名主机管理软件，跟国内众所周知的
     - [Customer FAQ](/API/faq/CustomerFAQ.md)
     - [Merchants FAQ](/API/faq/MerchantFAQ.md)
 
-## 支持更多币种
-我们随时接纳更多的币种，如果你想让你所支持的币种在数千个商家中能购买商品或服务，欢迎填写我们的上币申请表格。
+## Supported Coins
 
-## 成为麻瓜
-麻瓜团队是个去中心化的开放团队，我们随时欢迎更多的麻瓜加入我们一起创造魔法。
+Accept all supported coins or just one. In the meantime, you are more than welcome to add new coins for thousands of merchants. Please fill out the form.
 
-1. 开发者
+## Become a Muggle
+MugglePay team is a decentralized team, and you are more than welcome to join us to make the magic.
 
-2. 捐赠者
+1. Developers
 
-我们不接受纯的志愿者和捐赠者，成为麻瓜后每个成员都可以获得分红。
+2. Contributors
 
+We are not just accepting just volunteers or donators. You will get your dividends once you are part of the MugglePay team.
 
-## 产品介绍
+## Products
 
-### 产品链接
+### Product Links
 
- - [MugglePay主页介绍, 让数字货币支付更简单](https://www.mugglepay.com)
- - [麻瓜宝钱包](https://wallet.mugglepay.com)
- - [商户平台](https://merchants.mugglepay.com)
+ - [MugglePay Home - Make Crypto Payment Easy](https://www.mugglepay.com)
+ - [MugglePay Wallet](https://wallet.mugglepay.com)
+ - [MugglePay Merchant Portal](https://merchants.mugglepay.com)
 
-### 其他链接
+### Other Links
 
- - [设置麻瓜宝优惠券](https://github.com/MugglePay/MugglePay/blob/api/coupon.md)
- - [2020公开信 MugglePay数字无国界](https://github.com/MugglePay/MugglePay/blob/api/ALetterTo2020.md)
+ - [Coupon for MugglePay USDT](https://github.com/MugglePay/MugglePay/blob/api/coupon.md)
+ - [MugglePay Open letter 2020](https://github.com/MugglePay/MugglePay/blob/api/ALetterTo2020.md)
 
-### 联系我们
- - [用户FAQ](/API/faq/CustomerFAQ.md)
- - [商户FAQ](/API/faq/MerchantFAQ.md)
- - 商户后台提交工单
+### Contact
+ - [Customer FAQ](/API/faq/CustomerFAQ.md)
+ - [Merchant FAQ](/API/faq/MerchantFAQ.md)
+ - Merchant Tickets via Merchant Portal.
  - business@mugglepay.com
 
 ## License
