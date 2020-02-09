@@ -111,8 +111,9 @@ WHMCS是一套国外流行的域名主机管理软件，跟国内众所周知的
 
 ### 其他链接
 
- - [设置麻瓜宝优惠券](https://github.com/MugglePay/MugglePay/blob/api/coupon.md)
- - [2020公开信 MugglePay数字无国界](https://github.com/MugglePay/MugglePay/blob/api/ALetterTo2020.md)
+ - [设置麻瓜宝优惠券](/blogs/coupon.md)
+ - [2020公开信 MugglePay数字无国界](/blogs/ALetterTo2020.md)
+ - [数字支付时代即将来临](/blogs/DigitalPayment.md)
 
 ### 联系我们
  - [用户FAQ](/API/faq/CustomerFAQ.md)
@@ -122,5 +123,5 @@ WHMCS是一套国外流行的域名主机管理软件，跟国内众所周知的
 
 ## License
 [BSD](https://www.wikiwand.com/en/BSD_licenses)
-[LICENSE](https://github.com/MugglePay/MugglePay/blob/api/LICENSE)
+[LICENSE](/LICENSE)
 Copyright (c) 2018-present, Muggles Foundation All rights reserved.

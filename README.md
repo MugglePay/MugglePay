@@ -110,8 +110,9 @@ We are not just accepting just volunteers or donators. You will get your dividen
 
 ### Other Links
 
- - [Coupon for MugglePay USDT](https://github.com/MugglePay/MugglePay/blob/api/coupon.md)
- - [MugglePay Open letter 2020](https://github.com/MugglePay/MugglePay/blob/api/ALetterTo2020.md)
+ - [Coupon for MugglePay USDT](/blogs/coupon.md)
+ - [MugglePay Open letter 2020](/blogs/ALetterTo2020.md)
+ - [Digital Paymnet Era is Coming](/blogs/DigitalPayment.md)
 
 ### Contact
  - [Customer FAQ](/API/faq/CustomerFAQ.md)
@@ -121,5 +122,5 @@ We are not just accepting just volunteers or donators. You will get your dividen
 
 ## License
 [BSD](https://www.wikiwand.com/en/BSD_licenses)
-[LICENSE](https://github.com/MugglePay/MugglePay/blob/api/LICENSE)
+[LICENSE](/LICENSE)
 Copyright (c) 2018-present, Muggles Foundation All rights reserved.
