@@ -1,4 +1,4 @@
-简体中文 | [English](./Readme.md)
+简体中文 | [English](/API/Readme.md)
 
 <p align="center">
   <a href=" https://www.mugglepay.com">
@@ -17,7 +17,7 @@
 
 欢迎来到MugglePay！ 
 
-几秒钟即可测试MugglePay API。请前往[开发者页面](/API)开始把MugglePay接入你的网站。
+几秒钟即可测试MugglePay API。请前往[开发者页面](/API/Readme-CN.md)开始把MugglePay接入你的网站。
 
 <p align="center">
 <img src="https://dcdn.mugglepay.com/dt/pay/docs/mp-create.png" width="400px"/>
@@ -51,7 +51,7 @@
     - [用户FAQ](/API/faq/CustomerFAQ.md)
     - [商户FAQ](/API/faq/MerchantFAQ.md)
 
-## 在线演示Demo: 
+## 在线演示Demo
 
 请试用我们的在线演示站 [E-Cards](http://ecards.mugglepay.com).
 

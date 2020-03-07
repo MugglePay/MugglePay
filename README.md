@@ -18,7 +18,7 @@ Make Crypto Payment Easy
 ## MugglePay Merchants
 Accept Cryptocurrencies now! Integrated payment gateway for cryptocurrencies such as Bitcoin and USDT.
 
-## Payment Features
+### Payment Features
  - Accept Cryptocurrencies: BTC, BTC (Lightning Network), ETH, USDT, BCH, LTC, EOS
  - Integration in 5 minutes
  - Transaction fee as low as 0%
@@ -27,9 +27,31 @@ Accept Cryptocurrencies now! Integrated payment gateway for cryptocurrencies suc
 <img src="https://dcdn.mugglepay.com/pay/media/git/cryptos.png" width="250px"/>
 </p>
 
+### Product Links
+
+ - [MugglePay Home - Make Crypto Payment Easy](https://www.mugglepay.com)
+ - [MugglePay Wallet](https://wallet.mugglepay.com)
+ - [MugglePay Merchant Portal](https://merchants.mugglepay.com)
+
+
+### Supported Coins
+
+Accept all supported coins or just one. In the meantime, you are more than welcome to add new coins for thousands of merchants. Please contact us.
+
+### Become a Muggle
+MugglePay team is a decentralized team, and you are more than welcome to join us to make the magic.
+
+1. Developers
+
+2. Contributors
+
+We are not just accepting just volunteers or donators. You will get your dividends once you are part of the MugglePay team.
+
 ## Shopping Cart Plugins
 
 Offering plugins for all the popular online store. Register and install a plugin to set up MugglePay with your new or pre-existing checkout, in 5 minutes!
+
+### Shopify
 
 <a href="https://medium.com/@mugglepay/mugglepay-crypto-payment-plugin-launches-on-shopify-6904f3c3eca">
 <img src="https://dcdn.mugglepay.com/pay/media/git/shopify.png" height="50px" style="padding-right: 50px;"/>  
@@ -37,6 +59,7 @@ Offering plugins for all the popular online store. Register and install a plugin
 
 Shopify is not just an ecommerce software, Shopify is one of the best ecommerce platform that has everything you need to sell online, on social media, or in person.
 
+### WHMCS
 
 <a href="https://github.com/bitpaydev/bitpayxForWHMCS">
 <img src="https://dcdn.mugglepay.com/pay/media/git/whmcs.png" height="50px" style="padding-right: 50px;"/>
@@ -71,7 +94,7 @@ Card System
 
 ## Merchant API
 
-[More APIs](/API)
+[More APIs](/API/Readme.md)
   - API Overview
     - [Getting Started](/API/faq/GetStarted.md)
     - [Overview](/API/faq/Overview.md)
@@ -91,34 +114,8 @@ Card System
     - [Customer FAQ](/API/faq/CustomerFAQ.md)
     - [Merchants FAQ](/API/faq/MerchantFAQ.md)
 
-## Supported Coins
 
-Accept all supported coins or just one. In the meantime, you are more than welcome to add new coins for thousands of merchants. Please fill out the form.
-
-## Become a Muggle
-MugglePay team is a decentralized team, and you are more than welcome to join us to make the magic.
-
-1. Developers
-
-2. Contributors
-
-We are not just accepting just volunteers or donators. You will get your dividends once you are part of the MugglePay team.
-
-## Products
-
-### Product Links
-
- - [MugglePay Home - Make Crypto Payment Easy](https://www.mugglepay.com)
- - [MugglePay Wallet](https://wallet.mugglepay.com)
- - [MugglePay Merchant Portal](https://merchants.mugglepay.com)
-
-### Other Links
-
- - [Coupon for MugglePay USDT](/blogs/coupon.md)
- - [MugglePay Open letter 2020](/blogs/ALetterTo2020.md)
- - [Digital Paymnet Era is Coming](/blogs/DigitalPayment.md)
-
-### Contact
+## Contact
  - [Customer FAQ](/API/faq/CustomerFAQ.md)
  - [Merchant FAQ](/API/faq/MerchantFAQ.md)
  - Merchant Tickets via Merchant Portal.

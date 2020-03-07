@@ -18,7 +18,7 @@
 ## MugglePay商户平台
 MugglePay是为有在线收款需求的商家提供的数字货币解决方案。将MugglePay SDK集成到您的网站/App即可享受安全高效的数字货币收款。
 
-## 特点
+### 特点
  - 支持多种主流数字货币：BTC、BTC（Lightning Network）、ETH、USDT、BCH、LTC、EOS
  - 五分钟完成对接
  - 手续费低至0%
@@ -27,10 +27,30 @@ MugglePay是为有在线收款需求的商家提供的数字货币解决方案�
 <img src="https://dcdn.mugglepay.com/pay/media/git/cryptos.png" width="250px"/>
 </p>
 
+### 产品介绍
+
+ - [MugglePay主页介绍, 让数字货币支付更简单](https://www.mugglepay.com)
+ - [麻瓜宝钱包](https://wallet.mugglepay.com)
+ - [商户平台](https://merchants.mugglepay.com)
+
+### 支持更多币种
+我们随时接纳更多的币种，如果你想让你所支持的币种在数千个商家中能购买商品或服务，欢迎联系我们。
+
+### 成为麻瓜
+麻瓜团队是个去中心化的开放团队，我们随时欢迎更多的麻瓜加入我们一起创造魔法。
+
+1. 开发者
+
+2. 捐赠者
+
+我们不接受纯的志愿者和捐赠者，成为麻瓜后每个成员都可以获得分红。
+
+
 ## 支持平台
 
 涵盖主流电商平台。5分钟内开启数字货币收款。
 
+### Shopify
 
 <a href="https://medium.com/@mugglepay/mugglepay-crypto-payment-plugin-launches-on-shopify-6904f3c3eca">
 <img src="https://dcdn.mugglepay.com/pay/media/git/shopify.png" height="50px" style="padding-right: 50px;"/>  
@@ -38,6 +58,7 @@ MugglePay是为有在线收款需求的商家提供的数字货币解决方案�
 
 中国电商品牌出海优选SaaS平台，全球175个国家100万商家信赖_一站式体验_完善生态系统_集云端建站,库存管理,多渠道销售于一体。
 
+### WHMCS
 
 <a href="https://github.com/bitpaydev/bitpayxForWHMCS">
 <img src="https://dcdn.mugglepay.com/pay/media/git/whmcs.png" height="50px" style="padding-right: 50px;"/>
@@ -72,7 +93,7 @@ WHMCS是一套国外流行的域名主机管理软件，跟国内众所周知的
 
 ## 商户API文档
 
-[查看更多API简介](/API)
+[查看更多API简介](/API/Readme-CN.md)
   - API概述
     - [马上开始](/API/faq/GetStarted.md)
     - [API概述](/API/faq/Overview.md)
@@ -92,34 +113,8 @@ WHMCS是一套国外流行的域名主机管理软件，跟国内众所周知的
     - [用户FAQ](/API/faq/CustomerFAQ.md)
     - [商户FAQ](/API/faq/MerchantFAQ.md)
 
-## 支持更多币种
-我们随时接纳更多的币种，如果你想让你所支持的币种在数千个商家中能购买商品或服务，欢迎填写我们的上币申请表格。
 
-## 成为麻瓜
-麻瓜团队是个去中心化的开放团队，我们随时欢迎更多的麻瓜加入我们一起创造魔法。
-
-1. 开发者
-
-2. 捐赠者
-
-我们不接受纯的志愿者和捐赠者，成为麻瓜后每个成员都可以获得分红。
-
-
-## 产品介绍
-
-### 产品链接
-
- - [MugglePay主页介绍, 让数字货币支付更简单](https://www.mugglepay.com)
- - [麻瓜宝钱包](https://wallet.mugglepay.com)
- - [商户平台](https://merchants.mugglepay.com)
-
-### 其他链接
-
- - [设置麻瓜宝优惠券](/blogs/coupon.md)
- - [2020公开信 MugglePay数字无国界](/blogs/ALetterTo2020.md)
- - [数字支付时代即将来临](/blogs/DigitalPayment.md)
-
-### 联系我们
+## 联系我们
  - [用户FAQ](/API/faq/CustomerFAQ.md)
  - [商户FAQ](/API/faq/MerchantFAQ.md)
  - 商户后台提交工单

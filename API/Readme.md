@@ -1,4 +1,4 @@
-English | [简体中文](./Readme-CN.md)
+English | [简体中文](/API/Readme-CN.md)
 
 <p align="center">
   <a href=" https://www.mugglepay.com">
@@ -18,7 +18,7 @@ Welcome to MugglePay! Get familiar with the MugglePay Merchant products and expl
 
 ## Getting Started
 
-Try the MugglePay API in seconds. Follow our development [Getting Started](/API) to start building your integration.
+Try the MugglePay API in seconds. Follow our development [Getting Started](/API/Readme.md) to start building your integration.
 
 <p align="center">
 <img src="https://dcdn.mugglepay.com/dt/pay/docs/mp-create.png" width="400px"/>
@@ -52,7 +52,7 @@ Get your developer API key, manage your crypto orders and invoices with [Merchan
     - [Customer FAQ](/API/faq/CustomerFAQ.md)
     - [Merchants FAQ](/API/faq/MerchantFAQ.md)
 
-## Live Demo: 
+## Live Demo
 
 Checkout online services of [E-Cards](http://ecards.mugglepay.com).
 
