@@ -14,7 +14,7 @@ Feb 09, 2020 撰文整理：MugglePay
 
 ### [2020公开信 MugglePay数字无国界](/blogs/ALetterTo2020.md)
 January 04, 2020 @MugglePay 
-> 张三嫖娼不给钱，请问张三够不构成犯罪？
+> 数字货币 - 从投资到使用
 
 ## 产品介绍
 
