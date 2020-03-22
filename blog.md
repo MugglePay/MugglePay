@@ -2,11 +2,13 @@
 
 ## 公开信
 
-### [麻瓜使命](https://www.youtube.com/watch?v=o4y3sOx_ViU)
+### [<img src="http://dcdn.mugglepay.com/pay/media/videos/video.svg" /> 数字货币 - 从投资到使用](https://www.youtube.com/watch?v=3pTLOOTeNlA)
+Mar 22, 2020
+> 过去是投机/投资的10年，接下来是使用的10年。
+
+### [<img src="http://dcdn.mugglepay.com/pay/media/videos/video.svg" /> 麻瓜使命](https://www.youtube.com/watch?v=o4y3sOx_ViU)
 Mar 05, 2020
 > 不忘初心，牢记使命
-
-
 
 ### [数字支付时代即将来临](/blogs/DigitalPayment.md)
 Feb 09, 2020 撰文整理：MugglePay
