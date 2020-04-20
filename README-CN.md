@@ -83,6 +83,12 @@ WHMCS是一套国外流行的域名主机管理软件，跟国内众所周知的
 风铃发卡
 </a>,发卡程序，界面 UI 非常美观，致力于便捷、绿色、安全、快速的销售和购买体验。
 
+### ZFAKA发卡系统  
+<a href="https://github.com/huangfengye/MugglepayForZfaka">
+<img src="https://github.com/zlkbdotnet/zfaka/blob/master/public/favicon.ico" height="50px" style="padding-right: 50px;"/> <br>
+ZFAKA发卡系统
+</a>,发卡程序，界面 UI 非常美观，致力于便捷、绿色、安全、快速的销售和购买体验。
+
 
 
 ## 安装流程
