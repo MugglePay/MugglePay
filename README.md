@@ -85,6 +85,13 @@ Web Hosting Automation Made Easy! All the tools you need to start a web hosting 
 Card System
 </a>, One-Stop Online Sales Store, the interface UI is very beautiful, convenient, green, secure and fast sales and purchase experience.
 
+### Zfaka Online Store
+
+<a href="https://github.com/huangfengye/MugglepayForZfaka">
+<img src="https://github.com/zlkbdotnet/zfaka/blob/master/public/favicon.ico" height="50px" style="padding-right: 50px;"/>
+Zfaka Online Store
+</a>, One-Stop Online Sales Store, the interface UI is very beautiful, convenient, green, secure and fast sales and purchase experience.
+
 
 ## Merchant Onboard
 1. Register [MugglePay Merchant Portal](https://merchants.mugglepay.com/user/register?ref=MP37E56967)：
