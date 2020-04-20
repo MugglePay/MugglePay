@@ -88,7 +88,7 @@ Card System
 ### Zfaka Online Store
 
 <a href="https://github.com/huangfengye/MugglepayForZfaka">
-<img src="https://github.com/zlkbdotnet/zfaka/blob/master/public/favicon.ico" height="50px" style="padding-right: 50px;"/>
+<img src="https://github.com/zlkbdotnet/zfaka/blob/master/public/favicon.ico" height="50px" style="padding-right: 50px;"/> <br>
 Zfaka Online Store
 </a>, One-Stop Online Sales Store, the interface UI is very beautiful, convenient, green, secure and fast sales and purchase experience.
 
