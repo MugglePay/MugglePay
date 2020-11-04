@@ -8,19 +8,23 @@ MugglePay现已支持国际信用卡收款，帮助您在北美和新加坡等28
 
 ### 1. API接口
 创建订单接口设置支付方式为CARD，用户点击创建后将打开信用卡页面。查看链接 <a href="https://github.com/MugglePay/MugglePay/blob/master/API/order/CreateOrder.md">链接</a>
-![Screen Shot 2020-11-02 at 10 05 23 PM](https://user-images.githubusercontent.com/50819254/97877123-b589cf80-1d57-11eb-8b29-6319e135d222.png)
+![card-API](https://user-images.githubusercontent.com/50819254/97877123-b589cf80-1d57-11eb-8b29-6319e135d222.png)
 
 ### 2. WHMCS接口
 请先上传插件代码，插件代码请查看 <a href="https://github.com/MugglePay/MugglePayForWHMCS/tree/prod">完整代码</a>。
 如果您之前已经安装完毕，仅需查看 <a href="https://github.com/MugglePay/MugglePayForWHMCS/commit/c86eb2e0f19523d0e0098e23f9c36c80fc03bb37">修改代码</a>。
 
-![Screen Shot 2020-11-02 at 9 04 18 PM](https://user-images.githubusercontent.com/50819254/97877763-a1929d80-1d58-11eb-9eb5-ab6ff0283c2a.png)
+![card-WHMCS](https://user-images.githubusercontent.com/50819254/97877763-a1929d80-1d58-11eb-9eb5-ab6ff0283c2a.png)
 
 ### 3. SSP
 请修改SSP代码，完整代码请查看 <a href="https://github.com/MugglePay/bitpayx/tree/prod">代码</a>。
 如果您之前已经安装完毕，仅需查看 <a href="https://github.com/MugglePay/bitpayx/commit/08318dd062651aa7278c2f0eacf8f2a9cb7acccd">修改代码</a>。
 
-![Screen Shot 2020-11-02 at 10 28 38 PM](https://user-images.githubusercontent.com/50819254/97879295-c6881000-1d5a-11eb-81ae-7042c971efa0.png)
+![card-SSP](https://user-images.githubusercontent.com/50819254/97879295-c6881000-1d5a-11eb-81ae-7042c971efa0.png)
+
+### 3. Shopify
+请在商家后台查看最新的开发文档。
+<img width="588" alt="card-Shopify" src="https://user-images.githubusercontent.com/50819254/98114810-c4e85480-1ee0-11eb-8081-126220e62585.png">
 
 
 ## 了解更多
