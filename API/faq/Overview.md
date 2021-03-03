@@ -63,7 +63,14 @@ When your customer successfully completes their payment, they are redirected to 
 
 
 
-Once payment is successful, you should fulfill the customer’s purchase. You can use [Payment Callback](https://mugglepay.docs.stoplight.io/api-overview/payment-callback) webhooks to fulfill the purchase when callback event triggers.
+Once payment is successful, you should fulfill the customer’s purchase. You can use [Payment Callback](https://mugglepay.docs.stoplight.io/payment-api/payment-callback) webhooks to fulfill the purchase when callback event triggers.
+
+---
+**NOTE**
+
+If you can't get the callback request after a payment finished, you should check if you correctly pass the `callback_url` params when you send a create order request. You also can check the url at [Merchants Order History Page](https://merchants.mugglepay.com/transactions/orders) by click Triger **Payment Callback** button
+
+---
 
 
 ### Step 3. Integration test

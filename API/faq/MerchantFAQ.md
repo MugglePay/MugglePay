@@ -24,3 +24,7 @@ Method 2: You can exchange the cryptocurrency for Bitcoin on the exchange, such 
 You can purchase cryptocurrency on your credit card at Binance. Or buy cryptocurrency at Huobi via Alipay and bank card. 
 After buying the cryptocurrency, you need to withdraw it to your wallet for payment.
 
+## Why I can't get the callback request after a payment finished?
+
+If you can't get the callback request after a payment finished, you should check if you correctly pass the `callback_url` params when you send a create order request. You also can check the url at [Merchants Order History Page](https://merchants.mugglepay.com/transactions/orders) by click Triger **Payment Callback** button
+
