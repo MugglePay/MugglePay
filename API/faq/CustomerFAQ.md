@@ -1,5 +1,6 @@
 # Customer FAQ
 
+[English](/API/faq/CustomerFAQ.md) | [简体中文](/API/faq/常见问题.md)
 
 ## Order not confirmed or expired or waiting for blockchain
 If you have paid with cryptocurrencies (e.g. Bitcoin BTC/ Ethereum ETH / USDT), you can see the txHash or txID and blockchain exploerer url from your platforms.
@@ -7,7 +8,7 @@ First check if the transaction is confirmed on blockchain. If it's confirmed, pl
 
 Blockchain ususally takes some time to confirm based on differet blockchain network. If your order cannot confirm after 60 minutes, or If the order is expired or you pay a different amount.
 
-* send the email  to support@mugglepay.com with the attachments:
+* send the email to support@mugglepay.com with the attachments:
 * txHash and blockchain exploerer url - this will show the exact amount and time you have paid.
 * invoice id or url - this will show the amount you need to pay
 
