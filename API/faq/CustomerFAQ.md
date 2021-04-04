@@ -12,6 +12,15 @@ Blockchain ususally takes some time to confirm based on differet blockchain netw
 * txHash and blockchain exploerer url - this will show the exact amount and time you have paid.
 * invoice id or url - this will show the amount you need to pay
 
+## Order not confirmed - Top 1 (Price not match)
+When you pay from your crypto exchanges (Coinbase, Binance, Huobi, OKEx), they usually charges a withdraw fee.
+
+For example, the withdraw fee charged by the exchange is 0.0004 BTC for BTC, 0.007 ETH or ETH, 1 USDT for USDT-Tron and 12 USDT for USDT-Ethereum. You should pay the withdraw fee by yourself.
+
+For example, if your order is 128.8 USDT and you want to pay USDT-TRC20 from Binance. Currently Binance USDT-TRC20 withdraw fee is 1 USDT. MugglePay need to receive exactly 128.8, and you should withdraw 129.8 USDT from Binance to cover the withdraw fee.
+
+If you does not pay for the withdraw fee, and MugglePay will receive less amount. The order will be marked as expired after 60 minutes. Please send another transaction for the withdraw fee and contact our support email.
+
 
 
 ## What is Lightning Network?
