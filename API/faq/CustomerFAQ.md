@@ -12,6 +12,10 @@ Blockchain ususally takes some time to confirm based on differet blockchain netw
 * txHash and blockchain exploerer url - this will show the exact amount and time you have paid.
 * invoice id or url - this will show the amount you need to pay
 
+![txhash](https://user-images.githubusercontent.com/50819254/113534525-8bd51d00-9603-11eb-864e-977a2d2e0bca.jpg)
+![txhash2](https://user-images.githubusercontent.com/50819254/113534522-88da2c80-9603-11eb-8ed7-b4d2a6e2f6c6.jpg)
+
+
 ## Order not confirmed - Top 1 (Price not match)
 When you pay from your crypto exchanges (Coinbase, Binance, Huobi, OKEx), they usually charges a withdraw fee.
 
