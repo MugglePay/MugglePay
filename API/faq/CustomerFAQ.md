@@ -34,6 +34,8 @@ For example, if your order is 99 USD and you paid 100 USD from your credit card.
 
 <img width="380" alt="cardpayment" src="https://user-images.githubusercontent.com/50819254/113794626-90254580-977d-11eb-91d6-a5948639d42b.png">
 
+If you have not received a confirmation like the screenshots above, the money might be on hold by your bank. Please wait for the confirmation, and let us know if you have the payment receipt like above.
+
 * send the email to support@mugglepay.com with the attachments:
 * invoice id or url - this will show the amount you need to pay (also copy text)
 * credit card payment receipit - this will show the exact amount and time you have paid (also copy text).
