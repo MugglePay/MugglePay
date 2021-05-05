@@ -37,7 +37,7 @@ MugglePay有自己的补单策略，一般如果由于系统临时不稳定而�
 
 如果是设置防火墙，可以单独为麻瓜宝设置一个回调子域名（不受cf防护影响），或者设置域名白名单。下午的域名和路径仅供参考。真实的路径请看自己的网站设置（或者机器人消息推送会提示）
 <br />
-温馨提示：如果你存在多个域名，你可以不用完全匹配，选择 URI Path =》 Cointains =》 "payment/bacllback"即可。
+温馨提示：如果你存在多个域名，你可以不用完全匹配，选择 URI Path =》 Cointains =》 "payment/callback"即可。
 
 <img src="https://cdn.mugglepay.com/pay/instructions/callback.jpg" />
 
