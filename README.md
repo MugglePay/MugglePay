@@ -59,13 +59,26 @@ Offering plugins for all the popular online store. Register and install a plugin
 
 Shopify is not just an ecommerce software, Shopify is one of the best ecommerce platform that has everything you need to sell online, on social media, or in person.
 
+<a href="https://cdn.maguapay.com/pdf/MugglePay%20setup%20guide%20for%20Shopify.pdf">
+Tutorial
+</a>
+
 ### WHMCS
 
-<a href="https://github.com/bitpaydev/bitpayxForWHMCS">
+<a href="https://github.com/MugglePay/MugglePayForWHMCS">
 <img src="https://dcdn.mugglepay.com/pay/media/git/whmcs.png" height="50px" style="padding-right: 50px;"/>
 </a>
 
 Web Hosting Automation Made Easy! All the tools you need to start a web hosting business today.
+
+### WHMCS8
+
+New version supported. WHMCS8
+
+<a href="https://github.com/MugglePay/MugglePayForWHMCS8">
+<img src="https://dcdn.mugglepay.com/pay/media/git/whmcs.png" height="50px" style="padding-right: 50px;"/>
+</a>
+
 
 ### V2Board
 
