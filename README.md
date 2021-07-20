@@ -73,10 +73,10 @@ Web Hosting Automation Made Easy! All the tools you need to start a web hosting 
 
 ### WHMCS8
 
-New version supported. WHMCS8
+New version supported. 
 
 <a href="https://github.com/MugglePay/MugglePayForWHMCS8">
-<img src="https://dcdn.mugglepay.com/pay/media/git/whmcs.png" height="50px" style="padding-right: 50px;"/>
+WHMCS8 Tutorial
 </a>
 
 
