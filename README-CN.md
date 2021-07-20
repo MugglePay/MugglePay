@@ -58,6 +58,10 @@ MugglePay是为有在线收款需求的商家提供的数字货币解决方案�
 
 中国电商品牌出海优选SaaS平台，全球175个国家100万商家信赖_一站式体验_完善生态系统_集云端建站,库存管理,多渠道销售于一体。
 
+<a href="https://cdn.maguapay.com/pdf/MugglePay%20setup%20guide%20for%20Shopify.pdf">
+Tutorial
+</a>
+
 ### WHMCS
 
 <a href="https://github.com/bitpaydev/bitpayxForWHMCS">
@@ -65,6 +69,12 @@ MugglePay是为有在线收款需求的商家提供的数字货币解决方案�
 </a>
 
 WHMCS是一套国外流行的域名主机管理软件，跟国内众所周知的IDCSystem一样，主要在用户管理、财务管理、域名接口、服务器管理面板接口等方面设计的非常人性化。WHMCS是一套全面支持域名注册管理解析，主机开通管理，VPS开通管理和服务器管理。
+
+### WHMCS8
+
+<a href="https://github.com/MugglePay/MugglePayForWHMCS8">
+WHMCS8 Tutorial
+</a>
 
 ### V2Board
 
