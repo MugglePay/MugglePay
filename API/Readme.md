@@ -52,9 +52,6 @@ Get your developer API key, manage your crypto orders and invoices with [Merchan
     - [Customer FAQ](/API/faq/CustomerFAQ.md)
     - [Merchants FAQ](/API/faq/MerchantFAQ.md)
 
-## Live Demo
-
-Checkout online services of [E-Cards](http://ecards.mugglepay.com).
 
 <p align="center">
 <img src="https://dcdn.mugglepay.com/dt/pay/docs/mp-payment.png" width="250px"/>

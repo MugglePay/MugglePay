@@ -30,7 +30,6 @@ MugglePay是为有在线收款需求的商家提供的数字货币解决方案�
 ### 产品介绍
 
  - [MugglePay主页介绍, 让数字货币支付更简单](https://www.mugglepay.com)
- - [麻瓜宝钱包](https://wallet.mugglepay.com)
  - [商户平台](https://merchants.mugglepay.com)
 
 ### 支持更多币种
@@ -75,30 +74,6 @@ WHMCS是一套国外流行的域名主机管理软件，跟国内众所周知的
 <a href="https://github.com/MugglePay/MugglePayForWHMCS8">
 WHMCS8 Tutorial
 </a>
-
-### V2Board
-
-<a href="https://github.com/v2board/v2board">
-<img src="https://camo.githubusercontent.com/15b835c7ce768a70a7a3c6d9505f895293e92692/68747470733a2f2f757365722d676f6c642d63646e2e786974752e696f2f323031392f31312f31382f313665376631633339623539653532623f773d35303026683d35303026663d706e6726733d3835303535" height="50px" style="padding-right: 50px;"/>
-</a>
-
-### SSPanel
-
-<a href="https://github.com/bitpaydev/bitpayx/tree/master/bitpayx">
-<img src="https://dcdn.mugglepay.com/pay/media/git/sspanel.png" height="50px" style="padding-right: 50px;"/>
-</a>
-
-### 风铃发卡
-<a href="https://github.com/Tai7sy/card-gateway/tree/master/Pay/MugglePay">
-风铃发卡
-</a>,发卡程序，界面 UI 非常美观，致力于便捷、绿色、安全、快速的销售和购买体验。
-
-### ZFAKA发卡系统  
-<a href="https://github.com/huangfengye/MugglepayForZfaka">
-<img src="https://github.com/zlkbdotnet/zfaka/blob/master/public/favicon.ico" height="50px" style="padding-right: 50px;"/> <br>
-ZFAKA发卡系统
-</a>,发卡程序，界面 UI 非常美观，致力于便捷、绿色、安全、快速的销售和购买体验。
-
 
 
 ## 安装流程

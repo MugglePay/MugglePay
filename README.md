@@ -30,7 +30,6 @@ Accept Cryptocurrencies now! Integrated payment gateway for cryptocurrencies suc
 ### Product Links
 
  - [MugglePay Home - Make Crypto Payment Easy](https://www.mugglepay.com)
- - [MugglePay Wallet](https://wallet.mugglepay.com)
  - [MugglePay Merchant Portal](https://merchants.mugglepay.com)
 
 
@@ -78,32 +77,6 @@ New version supported.
 <a href="https://github.com/MugglePay/MugglePayForWHMCS8">
 WHMCS8 Tutorial
 </a>
-
-
-### V2Board
-
-<a href="https://github.com/v2board/v2board">
-<img src="https://camo.githubusercontent.com/15b835c7ce768a70a7a3c6d9505f895293e92692/68747470733a2f2f757365722d676f6c642d63646e2e786974752e696f2f323031392f31312f31382f313665376631633339623539653532623f773d35303026683d35303026663d706e6726733d3835303535" height="50px" style="padding-right: 50px;"/>
-</a>
-
-### SSPanel
-
-<a href="https://github.com/bitpaydev/bitpayx/tree/master/bitpayx">
-<img src="https://dcdn.mugglepay.com/pay/media/git/sspanel.png" height="50px" style="padding-right: 50px;"/>
-</a>
-
-### Card-System
-
-<a href="https://github.com/Tai7sy/card-gateway/tree/master/Pay/MugglePay">
-Card System
-</a>, One-Stop Online Sales Store, the interface UI is very beautiful, convenient, green, secure and fast sales and purchase experience.
-
-### Zfaka Online Store
-
-<a href="https://github.com/huangfengye/MugglepayForZfaka">
-<img src="https://github.com/zlkbdotnet/zfaka/blob/master/public/favicon.ico" height="50px" style="padding-right: 50px;"/> <br>
-Zfaka Online Store
-</a>, One-Stop Online Sales Store, the interface UI is very beautiful, convenient, green, secure and fast sales and purchase experience.
 
 
 ## Merchant Onboard

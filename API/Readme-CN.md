@@ -51,10 +51,6 @@
     - [用户FAQ](/API/faq/CustomerFAQ.md)
     - [商户FAQ](/API/faq/MerchantFAQ.md)
 
-## 在线演示Demo
-
-请试用我们的在线演示站 [E-Cards](http://ecards.mugglepay.com).
-
 <p align="center">
 <img src="https://dcdn.mugglepay.com/dt/pay/docs/mp-payment.png" width="250px"/>
 </p>
