@@ -68,3 +68,7 @@ Status for the purchase order (invoice). On the merchant side, the most commonly
    c) PAID [Final Status]<br>
 			Paid might be converted to REFUNDED [Final Status]
 	
+## Help?
+
+Payment sometimes get delayed when the blockchain network is congested. If you sent a payment after the order was expired or if your order does not confirm automatically, please contact us with the Web help widget or contact with support@mugglepay.com
+
