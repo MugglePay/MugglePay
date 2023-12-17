@@ -36,7 +36,10 @@ Status for the purchase order (invoice). On the merchant side, the most commonly
 		</tr>
 		<tr>
 			<td>EXPIRED</td>
-			<td>Customer does not pay within the time, for example 5 minutes. The order cannot be paid, and merchants should create a new order.</td>
+			<td>
+				Customer does not pay within the time, for example 60 minutes. The order cannot be paid, and merchants should create a new order.
+				The default payment time for crypto is 60 minutes (including Ethereum, USDC, USDT). If you are using MugglePay invoice web url, you will see the countdown timer. If you are building your in-house app, the expired at field can be found at invoice.expired_at_t. For those orders without selecting crypto payments, it will be expired after 3 hours.
+			</td>
 		</tr>
 		<tr>
 			<td>CANCELED</td>
