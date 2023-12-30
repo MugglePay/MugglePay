@@ -57,9 +57,8 @@ MugglePay是为有在线收款需求的商家提供的数字货币解决方案�
 
 中国电商品牌出海优选SaaS平台，全球175个国家100万商家信赖_一站式体验_完善生态系统_集云端建站,库存管理,多渠道销售于一体。
 
-<a href="https://cdn.maguapay.com/pdf/MugglePay%20setup%20guide%20for%20Shopify.pdf">
-Tutorial
-</a>
+[Shopify Integration Doc](/Panel/ShopifyIntegrationCn.md)
+
 
 ### WHMCS
 

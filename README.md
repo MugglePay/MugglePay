@@ -58,9 +58,8 @@ Offering plugins for all the popular online store. Register and install a plugin
 
 Shopify is not just an ecommerce software, Shopify is one of the best ecommerce platform that has everything you need to sell online, on social media, or in person.
 
-<a href="https://cdn.maguapay.com/pdf/MugglePay%20setup%20guide%20for%20Shopify.pdf">
-Tutorial
-</a>
+[Shopify Integration Doc](/Panel/ShopifyIntegration.md)
+
 
 ### WHMCS
 
