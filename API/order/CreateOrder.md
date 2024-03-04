@@ -119,7 +119,7 @@ curl -X POST \
   -d '{
   "merchant_order_id": 100388,
   "price_amount": 10,
-  "price_currency": "CNY"
+  "price_currency": "USD"
 }'
 
 ```
@@ -140,8 +140,8 @@ var options = { method: 'POST',
      title: "Monthly Program x 1",
      description: "Gaming for your family",
      price_amount: 1,
-     price_currency: 'CNY',
-		 pay_currency: 'USDT_ARBI',
+     price_currency: 'USD',
+     pay_currency: 'USDT_ARBI',
      callback_url: "https://ecards.com/api/success",
      cancel_url: "https://ecards.com/ecardstatus?status=cancel",
      success_url: "https://ecards.com/ecardstatus?status=success",
@@ -166,7 +166,7 @@ request(options, function (error, response, body) {
   "price_amount": 1.00,
   "price_currency": "USD",
   "title": "Monthly Program x 1",
-  "description": "Gaming for your family",
+  "description": "Game Pass Friends and Family, up to four players can enjoy Game Pass",
   "callback_url": "https://ecards.com/api/success",
   "cancel_url": "https://ecards.com/ecardstatus?status=cancel",
   "success_url": "https://ecards.com/ecardstatus?status=success",
@@ -183,7 +183,7 @@ request(options, function (error, response, body) {
         "user_id": 32014,
         "merchant_order_id": "503a854998-6230-4338-adb7",
         "title": "Monthly Program x 1",
-        "description": "Gaming for your family",
+        "description": "Game Pass Friends and Family, up to four players can enjoy Game Pass",
         "callback_url": "https://ecards.com/api/success",
         "cancel_url": "https://ecards.com/ecardstatus?status=cancel",
         "success_url": "https://ecards.com/ecardstatus?status=success",
