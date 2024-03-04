@@ -49,7 +49,7 @@ This is the ONLY API needed for your website.
 		<td>pay_currency</td>
 		<td><code>string</code></td>
 		<td></td>
-		<td>Only use this field if you have the payment gateway enabled, and it will select the payment gateway. e.g. ALIPAY, ALIGLOBAL, WECHAT, BTC, LTC, ETH, EOS, BCH, LBTC (for Lightening BTC), CUSD (for Celo Dollars)</td>
+		<td>Only use this field if you have the payment gateway enabled, and it will select the payment gateway. e.g. ETH, USDT, USDC</td>
 	</tr>
 	<tr>
 		<td>title</td>
@@ -85,12 +85,12 @@ This is the ONLY API needed for your website.
 		<td>mobile</td>
 		<td><code>bool</code></td>
 		<td></td>
-		<td>Based on PC or Mobile Wap, we provide different links, for Alipay / Alipay Global / Wechat only. </td>
+		<td>Based on PC or Mobile Wap, we provide different links. </td>
 	<tr>
 		<td>fast</td>
 		<td><code>bool</code></td>
 		<td></td>
-		<td>Return the payment url directly, for Alipay / Alipay Global / Wechat only.</td>
+		<td>Return the payment url directly.</td>
 	</tr>
 	<tr>
 		<td>token</td>
@@ -141,7 +141,7 @@ var options = { method: 'POST',
      description: "Gaming for your family",
      price_amount: 1,
      price_currency: 'CNY',
-		 pay_currency: 'ALIPAY',
+		 pay_currency: 'USDT_ARBI',
      callback_url: "https://ecards.com/api/success",
      cancel_url: "https://ecards.com/ecardstatus?status=cancel",
      success_url: "https://ecards.com/ecardstatus?status=success",
@@ -164,7 +164,7 @@ request(options, function (error, response, body) {
 {
   "merchant_order_id": "503a854998-6230-4338-adb7",
   "price_amount": 1.00,
-  "price_currency": "CNY",
+  "price_currency": "USD",
   "title": "Monthly Program x 1",
   "description": "Gaming for your family",
   "callback_url": "https://ecards.com/api/success",
@@ -187,10 +187,10 @@ request(options, function (error, response, body) {
         "callback_url": "https://ecards.com/api/success",
         "cancel_url": "https://ecards.com/ecardstatus?status=cancel",
         "success_url": "https://ecards.com/ecardstatus?status=success",
-        "price_amount": 0.15,
+        "price_amount": 1,
         "price_currency": "USD",
         "pay_amount": 1,
-        "pay_currency": "CNY",
+        "pay_currency": "USD",
         "order_id": "94be2b2a-2905-4857-b701-b04e57e84593",
         "status": "NEW",
         "created_at": "2019-04-24T16:57:35.416Z",
