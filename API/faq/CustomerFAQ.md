@@ -14,7 +14,9 @@ Blockchain usually takes some time to confirm based on differet blockchain netwo
 
 ![txhash](https://user-images.githubusercontent.com/50819254/113534525-8bd51d00-9603-11eb-864e-977a2d2e0bca.jpg) ![txhash2](https://user-images.githubusercontent.com/50819254/113534522-88da2c80-9603-11eb-8ed7-b4d2a6e2f6c6.jpg)
 
-## Order not confirmed - Top Reason 1 (Price not match)
+##
+
+## Order not confirmed - Top Reason 1 (Price not match, price volatility issues)
 
 When you pay from your crypto exchanges (Coinbase, Binance, Huobi, OKEx), they usually charge a withdrawal fee.
 
@@ -22,7 +24,7 @@ For example, the withdraw fee charged by the exchange is 0.0004 BTC for BTC, 1 U
 
 For example, if your order is 128.8 USDT and you want to pay USDT-TRC20 from Binance. Currently Binance USDT-TRC20 withdrawal fee is 1 USDT. MugglePay need to receive exactly 128.8, and you should withdraw 129.8 USDT from Binance to cover the withdrawal fee.
 
-If you do not pay the withdrawal fee, and MugglePay will receive less amount. The order will be marked as expired after 60 minutes. Please contact our support email as soon as possible.
+If you do not pay the withdrawal fee, and merchant will receive less amount. The order will be marked as expired after 60 minutes. Please contact our support email as soon as possible.
 
 The solution might be paying the missing fee (e.g. 1 USD as the example), or refund the rest of the money (you might need to cover the cost).
 
@@ -40,9 +42,15 @@ If you have not received a confirmation like the screenshots above, the money mi
 * invoice id or url - this will show the amount you need to pay (also copy text)
 * credit card payment receipt - this will show the exact amount and time you have paid (also copy text).
 
-## Order not confirmed - Top Reason 3 (Expired)
+## Order not confirmed - Top Reason 3 (Expired, payment timeout)
 
-Blockchain payments sometimes take a longer time, even hours. If order shows expired
+By default the payment time window is 10 minutes to 1 hour based on the merchant order configations. However, blockchain payments sometimes take a longer time, even hours.&#x20;
+
+If you pay with stablecoins like USDC, USDT on Tron, Ethereum, Arbitrum, we will mark the order as paid automatically within 24 hours. Even though are orders are expired.&#x20;
+
+If you pay the invoice for more than 24 hours, or you pay with Bitcoin (non-stablecoins), it will show as expired after the payment window.
+
+If order shows expired
 
 * send the email to support@mugglepay.com with the attachments:
 * invoice id or url - this will show the amount you need to pay (also copy text)
