@@ -1,18 +1,18 @@
-# 🇭🇰 Readme-zh
+# 🇺🇸 Readme
 
-简体中文 | [English](./)
+English | [简体中文](<README (1).md>)
 
 [![](https://dcdn.mugglepay.com/dt/pay/logo/mplogo1.png)](https://www.mugglepay.com)
 
-## MugglePay商户API
+## MugglePay Merchant API
 
 ![](http://dcdn.mugglepay.com/pay/media/git/git-license.png) ![](http://dcdn.mugglepay.com/pay/media/git/git-build.png) ![](http://dcdn.mugglepay.com/pay/media/git/git-codecov.png) ![](http://dcdn.mugglepay.com/pay/media/git/git-build.png)
 
-### 马上开始
+Welcome to MugglePay! Get familiar with the MugglePay Merchant products and explore the features.
 
-欢迎来到MugglePay！
+### Getting Started
 
-几秒钟即可测试MugglePay API。请前往[开发者页面](./)开始把MugglePay接入你的网站。
+Try the MugglePay API in seconds. Follow our development [Getting Started](./) to start building your integration.
 
 <div align="center">
 
@@ -20,9 +20,9 @@
 
 </div>
 
-### 商户后台
+### Merchants Portal
 
-点击获取你的开发者API Key。通过API Key，你可以管理你的数字货币订单和发票。 [商户后台](https://merchants.mugglepay.com/).
+Get your developer API key, manage your crypto orders and invoices with [Merchants Portal](https://merchants.mugglepay.com/).
 
 <div align="center">
 
@@ -30,26 +30,26 @@
 
 </div>
 
-### 接口
+### Summary
 
-* API概述
-  * [马上开始](faq/GetStarted.md)
-  * [API概述](faq/Overview.md)
-  * [订单状态](basic/OrderStatus.md)
-  * [错误码](basic/ErrorCodes.md)
-  * [接口认证](basic/Authentication.md)
-* 支付API
-  * [创建订单](order/CreateOrder.md)
-  * [支付回调(异步请求)](order/PaymentCallback.md)
-* 内置API
-  * [获取一个订单](order/GetOrder.md)
-  * [获取所有订单](order/GetOrders.md)
-  * [选择订单支付货币](order/CheckoutOrder.md)
-  * [取消订单](order/CancelOrder.md)
-  * [退款](order/Refund.md)
+* API Overview
+  * [Getting Started](faq/GetStarted.md)
+  * [Overview](faq/Overview.md)
+  * [Order Status](basic/OrderStatus.md)
+  * [Error Codes](basic/ErrorCodes.md)
+  * [Authentication](basic/Authentication.md)
+* Payment API
+  * [Create Order](order/CreateOrder.md)
+  * [Payment Callback (Webhook)](order/PaymentCallback.md)
+* In-House API
+  * [Get Order](order/GetOrder.md)
+  * [Get Orders](order/GetOrders.md)
+  * [Checkout Order](order/CheckoutOrder.md)
+  * [Cancel Order](order/CancelOrder.md)
+  * [Refund](order/Refund.md)
 * FAQ
-  * [用户FAQ](faq/CustomerFAQ.md)
-  * [商户FAQ](faq/MerchantFAQ.md)
+  * [Customer FAQ](faq/CustomerFAQ.md)
+  * [Merchants FAQ](faq/MerchantFAQ.md)
 
 <div align="center">
 
@@ -57,6 +57,6 @@
 
 </div>
 
-### 版权
+### License
 
 [BSD](https://www.wikiwand.com/en/BSD\_licenses) Copyright (c) 2018-present, Muggles Foundation All rights reserved.
