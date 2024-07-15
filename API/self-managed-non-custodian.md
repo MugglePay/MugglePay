@@ -51,3 +51,5 @@ Withdraw is not needed, and your registered account will be the one for withdraw
 
 If the buyer pays from crypto exchange, the payment amount might not be exact match. Please create a ticket if you want to disable the feature.
 
+For example, when buyer pays the $100 invoice from Coinbase Commerce, the withdrawal fee is $0.2 for USDC. $99.8 will be received if the buyer forgot about the withdrawal fee. We will mark the invoice as completed even if it's underpaid within a reasonable range.
+
