@@ -45,3 +45,9 @@ Using MugglePay Self-managed Commerce incurs a 0% transaction fee.&#x20;
 
 Withdraw is not needed, and your registered account will be the one for withdrawals.
 
+
+
+**Payment Covering**
+
+If the buyer pays from crypto exchange, the payment amount might not be exact match. Please create a ticket if you want to disable the feature.
+
