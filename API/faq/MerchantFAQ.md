@@ -1,8 +1,14 @@
 # Merchant FAQ
 
+## Why self-manged invoices are not my own wallet address?
+
+If you are self-custodial (self managed) mode, you will receive the tokens by yourself. If you are on EVM chains like Arbitrum, Base or BNB Chain, We use the non-custodial smart contracts to forward the payments for you.&#x20;
+
+Why? We create different smart contracts address for your payments, you have access to those payment contracts, so that your invoice payments can be separated.
+
 ## Should I register with Email or Web3 Wallets?
 
-If you want to accept crypto into your own wallets, we suggest you register with your own Web3. It supports self-custody (self managed) mode. No account registeration. No withdraw needed. Read [more](https://docs.mugglepay.com/self-managed-non-custodian)
+If you want to accept crypto into your own wallets, we suggest you register with your own Web3. It supports self-custodial (self-managed) mode. No account registeration. No withdraw needed. Read [more](https://docs.mugglepay.com/self-managed-non-custodian)
 
 If you want a one stop solution for your website, to accept different tokens on different blockchains. E.g. USDT, USDC on different chains like Ethereum, Ton, Solana, Binance, Layer2 like Arbitrum, . We suggest you register with your email with the simple mode.
 
