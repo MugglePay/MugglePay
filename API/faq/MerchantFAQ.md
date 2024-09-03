@@ -1,10 +1,16 @@
 # Merchant FAQ
 
-## Why self-manged invoices are not my own wallet address?
+## How to get a donation? Can I create order without price amount?
 
-If you are self-custodial (self managed) mode, you will receive the tokens by yourself. If you are on EVM chains like Arbitrum, Base or BNB Chain, We use the non-custodial smart contracts to forward the payments for you.&#x20;
+Yes. Set the price\_amount = 0 when you create the order. Check the [API Doc here](https://docs.mugglepay.com/order/createorder)
 
-Why? We create different smart contracts address for your payments, you have access to those payment contracts, so that your invoice payments can be separated.
+After the order is created, the buyer will enter the price amount for the order. The price\_amount only be set only once.
+
+## Why self-manged invoices are not the same as my own wallet address?
+
+When you're in self-custodial (self-managed) mode, you have direct control over receiving tokens. For EVM-compatible chains like Arbitrum, Base, or BNB Chain, we utilize non-custodial smart contracts to forward payments on your behalf.
+
+These smart contracts manage the initial receipt of funds, you maintain complete control over accessing and transferring the tokens received.
 
 ## Should I register with Email or Web3 Wallets?
 
