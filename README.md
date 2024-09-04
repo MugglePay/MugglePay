@@ -18,6 +18,9 @@ Make Crypto Payment Easy
 ## MugglePay Merchants
 Accept Cryptocurrencies now! Integrated payment gateway for cryptocurrencies such as Bitcoin and USDT.
 
+Payment Flow
+[![](https://mermaid.ink/img/pako:eNp9UU1rwzAM_SvC7NBBt3t9KHQdgx0KY7v6Imw1MWvsTLEXQul_n5yEjLFuPhh9PelJ76xsdKS06ugjU7D06LFibEwAeS1y8ta3GBI85IH4d_iQq-pELzhcSRHbWowpM-LvttsFoGHPhIkAAzyHz-gtwepmc7-5nQBLYQHNrTRw4dl9N4d9DEdfzZA5-HPMKwkhT1K7c46p62BlR5CGXU7xrcf2ysiRrwZxmgL9cwn5oPeplm2GNsX_uD9F7pEdcSGdGK2cRq1VQ9ygdyLCuaCNSjU1ZJQW0yG_G2XCReqwkB2CVTpxprXimKta6SOeOvFy6-SYs3xLlJxPkQ-TxqPUly-sO6pn?type=png)](https://mermaid.live/edit#pako:eNp9UU1rwzAM_SvC7NBBt3t9KHQdgx0KY7v6Imw1MWvsTLEXQul_n5yEjLFuPhh9PelJ76xsdKS06ugjU7D06LFibEwAeS1y8ta3GBI85IH4d_iQq-pELzhcSRHbWowpM-LvttsFoGHPhIkAAzyHz-gtwepmc7-5nQBLYQHNrTRw4dl9N4d9DEdfzZA5-HPMKwkhT1K7c46p62BlR5CGXU7xrcf2ysiRrwZxmgL9cwn5oPeplm2GNsX_uD9F7pEdcSGdGK2cRq1VQ9ygdyLCuaCNSjU1ZJQW0yG_G2XCReqwkB2CVTpxprXimKta6SOeOvFy6-SYs3xLlJxPkQ-TxqPUly-sO6pn)
+
 ### Payment Features
  - Accept Cryptocurrencies: BTC, BTC (Lightning Network), ETH, USDT, BCH, LTC, EOS
  - Integration in 5 minutes
