@@ -24,7 +24,8 @@ If you want to integrate with MugglePay, we will send you $0.1 worth of USDT to 
 
 * Register a Web3 account (e.g. with MetaMask ), and have your address ready.
 * Register a MugglePay account, and create a Ticket in Help Center.
-* Write down your  address and we will send you USDT and Eth tokens on Arbitrum network&#x20;
+* Write down your  address and we will send you USDV on Arbitrum network&#x20;
+  * Create order with pay\_currrency = USDV\_ARB
 
 ## What if I forgot my password?
 
