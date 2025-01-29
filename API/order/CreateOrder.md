@@ -37,18 +37,26 @@ This is the ONLY API needed for your website.
 
 We support major stable tokens and networks, here are the popular tokens. If the pay\_currency as set, the invoice page will be checkout with the selected token. Here are the commonly used tokens.
 
-| pay\_currency | Token | Network     |
-| ------------- | ----- | ----------- |
-| USDT\_ARB     | USDT  | Arbitrum    |
-| USDC\_ARB     | USDC  | Arbitrum    |
-| ETH\_ARB      | ETH   | Arbitrum    |
-| TON           | TON   | Ton Network |
-| USDT\_TON     | USDT  | Ton Network |
-| USDT\_BNB     | USDT  | BNB Chain   |
-| USDT\_CELO    | USDT  | Celo        |
-| CUSD          | CUSD  | Celo        |
-| USDC\_BASE    | USDC  | Base        |
-| ETH\_BASE     | ETH   | Base        |
+| pay\_currency | Token | Network               |
+| ------------- | ----- | --------------------- |
+| USDT\_ARB     | USDT  | Arbitrum              |
+| USDC\_ARB     | USDC  | Arbitrum              |
+| ETH\_ARB      | ETH   | Arbitrum              |
+| USDC\_ERC20   | USDC  | Ethereum              |
+| USDT\_ERC20   | USDT  | Ethereum              |
+| USDC\_SOL     | USDC  | Solana                |
+| USDC\_POL     | USDC  | Polygon               |
+| TON           | TON   | Ton Network           |
+| USDT\_TON     | USDT  | Ton Network           |
+| USDT\_BNB     | USDT  | BNB Chain             |
+| USDT\_CELO    | USDT  | Celo                  |
+| CUSD          | CUSD  | Celo                  |
+| USDC\_BASE    | USDC  | Base                  |
+| ETH\_BASE     | ETH   | Base                  |
+| USDT\_TON     | USDT  | Ton                   |
+| TON           | Ton   | Ton                   |
+|               |       | Stellar (Coming Soon) |
+|               |       | ICP (Coming Soon)     |
 
 
 
