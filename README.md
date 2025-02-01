@@ -1,4 +1,4 @@
-English | [简体中文](/README-CN.md)
+English | [简体中文](/README-CN.md) | [日本語](/README-JP.md)
 
 <p align="center">
   <a href=" https://www.mugglepay.com">
