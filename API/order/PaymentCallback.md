@@ -27,7 +27,7 @@ Webhooks enable you to:
 
 ### Authentication
 
-Webhooks are authenticated using the `token` field you provide in the Create Order request. This prevents fraudulent callback attempts.
+Webhooks are authenticated using the `merchant_token` field you provide in the Create Order request. This prevents fraudulent callback attempts.
 
 ## Request Details
 
@@ -58,7 +58,7 @@ Your webhook endpoint must return HTTP 200 with this JSON response:
 | `pay_currency` | `string` | Currency used for payment |
 | `created_at` | `string` | ISO 8601 timestamp of order creation |
 | `created_at_t` | `number` | Unix timestamp (epoch) of order creation |
-| `token` | `string` | Your custom token for webhook validation |
+| `merchant_token` | `string` | Your custom merchant_token for webhook validation |
 | `meta` | `object` | Additional payment information (optional) |
 
 ## Code Examples
@@ -79,12 +79,12 @@ app.post('/webhooks/payment', async (req, res) => {
       status,
       price_amount,
       price_currency,
-      token
+      merchant_token
     } = req.body;
 
     // Validate webhook token
-    if (!validateWebhookToken(token)) {
-      console.error('Invalid webhook token');
+    if (!validateWebhookToken(merchant_token)) {
+      console.error('Invalid webhook merchant_token');
       return res.status(401).json({ error: 'Unauthorized' });
     }
 
@@ -119,9 +119,9 @@ app.post('/webhooks/payment', async (req, res) => {
   }
 });
 
-function validateWebhookToken(token) {
+function validateWebhookToken(merchant_token) {
   // Implement your token validation logic
-  return token === process.env.WEBHOOK_TOKEN;
+  return merchant_token === process.env.WEBHOOK_TOKEN;
 }
 
 async function fulfillOrder(merchantOrderId) {
@@ -333,7 +333,7 @@ MugglePay automatically retries failed webhook deliveries using exponential back
 - **Test manually**: Use Merchant Portal to trigger test callbacks
 
 #### Webhook Processing Errors
-- **Validate token**: Ensure webhook token matches your expected value
+- **Validate merchant token**: Ensure webhook merchant_token matches your expected value
 - **Check payload structure**: Verify all required fields are present
 - **Handle errors gracefully**: Return 200 even when processing fails
 - **Monitor logs**: Check for specific error messages

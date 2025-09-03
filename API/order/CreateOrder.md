@@ -30,7 +30,7 @@ This is the **ONLY API** you need to integrate MugglePay payments into your webs
 | `success_url` | `string` | No | Redirect URL after successful payment. Usually your order confirmation page. |
 | `mobile` | `boolean` | No | Optimize payment page for mobile devices if set to `true`. |
 | `fast` | `boolean` | No | Return payment URL directly without additional processing. |
-| `token` | `string` | No | Custom token set by merchant for webhook validation. It's useful for merchant to verify the API is from MugglePay. It's different from the API authentication token from the Merchant Portal. |
+| `merchant_token` | `string` | No | Custom token set by merchant for webhook validation. It's useful for merchant to verify the API is from MugglePay. It's different from the API authentication token from the Merchant Portal. |
 
 ## Supported Cryptocurrencies
 
