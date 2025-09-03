@@ -21,14 +21,14 @@ MugglePay provides a pre-built payment page and complete checkout experience tha
    - Sign up with your invitation code
    - Complete your merchant profile
 
-![Merchant Login](http://dcdn.mugglepay.com/dt/pay/docs/mp-login.png)
+<img src="http://dcdn.mugglepay.com/dt/pay/docs/mp-login.png" width="300px"/>
 
 2. **Get Your API Key**
    - Navigate to the API section in your dashboard
    - Copy your unique API authentication token
    - Keep this token secure - never expose it in client-side code
 
-![API Key](http://dcdn.mugglepay.com/dt/pay/docs/mp-apikey.png)
+<img src="http://dcdn.mugglepay.com/dt/pay/docs/mp-apikey.png" width="300px"/>
 
 **Learn more**: [Authentication Guide](basic/Authentication.md)
 
@@ -38,10 +38,7 @@ MugglePay provides a pre-built payment page and complete checkout experience tha
 
 Choose from our pre-designed payment buttons or create your own:
 
-![Payment Buttons](http://dcdn.mugglepay.com/dt/pay/button/mpay-en.png){: width="100px"}
-![Payment Buttons](http://dcdn.mugglepay.com/dt/pay/button/mpay-zh.png){: width="100px"}
-![Payment Buttons](http://dcdn.mugglepay.com/dt/pay/button/mpay-icon.png){: width="33px"}
-![Payment Buttons](http://dcdn.mugglepay.com/dt/pay/button/mpay-en-black.png){: width="100px"}
+<img src="http://dcdn.mugglepay.com/dt/pay/button/mpay-icon.png" width="100px"/>
 
 #### 2.2 Button Integration Example
 
@@ -81,7 +78,7 @@ async function createPayment() {
 
 When a customer clicks the payment button, your backend should call the [Create Order API](order/CreateOrder.md):
 
-![Create Order Flow](http://dcdn.mugglepay.com/dt/pay/docs/mp-create.png)
+<img src="http://dcdn.mugglepay.com/dt/pay/docs/mp-create.png" width="500px"/>
 
 #### Backend Implementation Example
 
@@ -123,7 +120,7 @@ app.post('/api/create-order', async (req, res) => {
 
 After successful order creation, redirect customers to the MugglePay payment page:
 
-![Payment Page](http://dcdn.mugglepay.com/dt/pay/docs/mp-payment.png)
+<img src="http://dcdn.mugglepay.com/dt/pay/docs/mp-payment.png" width="300px"/>
 
 #### 4.2 Payment Callback (Webhook)
 
@@ -161,7 +158,7 @@ app.post('/webhooks/payment', async (req, res) => {
 
 Track all transactions and orders in the [Merchant Portal](https://merchants.mugglepay.com/):
 
-![Merchant Dashboard](http://dcdn.mugglepay.com/dt/pay/docs/mp-admin.png)
+<img src="http://dcdn.mugglepay.com/dt/pay/docs/mp-admin.png" width="500px"/>
 
 ## Complete Integration Example
 
