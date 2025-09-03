@@ -12,7 +12,7 @@ Blockchain usually takes some time to confirm based on differet blockchain netwo
 * txHash and blockchain explorer URL - this will show the exact amount and time you have paid (please copy text).
 * invoice id and URL - this will show the amount you need to pay (please copy text)
 
-![txhash](https://user-images.githubusercontent.com/50819254/113534525-8bd51d00-9603-11eb-864e-977a2d2e0bca.jpg){: width="60%"} ![txhash2](https://user-images.githubusercontent.com/50819254/113534522-88da2c80-9603-11eb-8ed7-b4d2a6e2f6c6.jpg){: width="60%"}
+![txhash](https://user-images.githubusercontent.com/50819254/113534525-8bd51d00-9603-11eb-864e-977a2d2e0bca.jpg) ![txhash2](https://user-images.githubusercontent.com/50819254/113534522-88da2c80-9603-11eb-8ed7-b4d2a6e2f6c6.jpg)
 
 ##
 
@@ -34,7 +34,7 @@ Credit card processing sometimes take a longer time, especially crypto related (
 
 For example, if your order is 99 USD and you paid 100 USD from your credit card. The credit card company will charge the processing fee.
 
-![cardpayment](https://user-images.githubusercontent.com/50819254/113794626-90254580-977d-11eb-91d6-a5948639d42b.png){: width="60%"}
+![cardpayment](https://user-images.githubusercontent.com/50819254/113794626-90254580-977d-11eb-91d6-a5948639d42b.png)
 
 If you have not received a confirmation like the screenshots above, the money might be on hold by your bank. Please wait for the confirmation, and let us know if you have the payment receipt like above.
 
