@@ -30,7 +30,7 @@ MugglePay provides a pre-built payment page and complete checkout experience tha
 
 <img src="http://dcdn.mugglepay.com/dt/pay/docs/mp-apikey.png" width="300px"/>
 
-**Learn more**: [Authentication Guide](basic/Authentication.md)
+**Learn more**: [Authentication Guide](../basic/Authentication.md)
 
 ### Step 2: Integrate Payment Button
 
@@ -76,7 +76,7 @@ async function createPayment() {
 
 ### Step 3: Create Order API Integration
 
-When a customer clicks the payment button, your backend should call the [Create Order API](order/CreateOrder.md):
+When a customer clicks the payment button, your backend should call the [Create Order API](../order/CreateOrder.md):
 
 <img src="http://dcdn.mugglepay.com/dt/pay/docs/mp-create.png" width="500px"/>
 
@@ -247,11 +247,11 @@ Here's a minimal working example:
 
 ## Related Documentation
 
-- [Create Order API](order/CreateOrder.md) - Detailed API reference
-- [Payment Callback](order/PaymentCallback.md) - Webhook handling guide
-- [Order Status](basic/OrderStatus.md) - Understanding payment states
-- [Authentication](basic/Authentication.md) - API security guide
-- [Error Codes](basic/ErrorCodes.md) - Common error solutions
+- [Create Order API](../order/CreateOrder.md) - Detailed API reference
+- [Payment Callback](../order/PaymentCallback.md) - Webhook handling guide
+- [Order Status](../basic/OrderStatus.md) - Understanding payment states
+- [Authentication](../basic/Authentication.md) - API security guide
+- [Error Codes](../basic/ErrorCodes.md) - Common error solutions
 
 ## Next Steps
 
