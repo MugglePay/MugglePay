@@ -1,62 +1,71 @@
-# 🇺🇸 Readme
+# 🇺🇸 MugglePay API Documentation
 
-English | [简体中文](<README (1).md>)
+English | [简体中文](README%20(1).md)
 
 [![](https://dcdn.mugglepay.com/dt/pay/logo/mplogo1.png)](https://www.mugglepay.com)
 
-## MugglePay Merchant API
+## Overview
+
+Welcome to MugglePay! A comprehensive cryptocurrency payment solution that enables merchants to accept crypto payments with minimal integration effort.
 
 ![](http://dcdn.mugglepay.com/pay/media/git/git-license.png) ![](http://dcdn.mugglepay.com/pay/media/git/git-build.png) ![](http://dcdn.mugglepay.com/pay/media/git/git-codecov.png) ![](http://dcdn.mugglepay.com/pay/media/git/git-build.png)
 
-Welcome to MugglePay! Get familiar with the MugglePay Merchant products and explore the features.
+## Quick Start
 
-### Getting Started
-
-Try the MugglePay API in seconds. Follow our development [Getting Started](./) to start building your integration.
+Get started with MugglePay API in minutes. Follow our [Getting Started Guide](faq/GetStarted.md) to begin building your integration.
 
 <div align="center">
 
-<img src="https://dcdn.mugglepay.com/dt/pay/docs/mp-create.png" alt="" width="400">
+<img src="https://dcdn.mugglepay.com/dt/pay/docs/mp-create.png" alt="Create Order Flow" width="400">
 
 </div>
 
-### Merchants Portal
+## Merchant Portal
 
-Get your developer API key, manage your crypto orders and invoices with [Merchants Portal](https://merchants.mugglepay.com/).
+Access your developer API key and manage crypto orders through the [Merchant Portal](https://merchants.mugglepay.com/).
 
 <div align="center">
 
-<img src="https://dcdn.mugglepay.com/dt/pay/docs/mp-login.png" alt="" width="250">
+<img src="https://dcdn.mugglepay.com/dt/pay/docs/mp-login.png" alt="Merchant Login" width="250">
 
 </div>
 
-### Summary
+## API Reference
 
-* API Overview
-  * [Getting Started](faq/GetStarted.md)
-  * [Overview](faq/Overview.md)
-  * [Order Status](basic/OrderStatus.md)
-  * [Error Codes](basic/ErrorCodes.md)
-  * [Authentication](basic/Authentication.md)
-* Payment API
-  * [Create Order](order/CreateOrder.md)
-  * [Payment Callback (Webhook)](order/PaymentCallback.md)
-* In-House API
-  * [Get Order](order/GetOrder.md)
-  * [Get Orders](order/GetOrders.md)
-  * [Checkout Order](order/CheckoutOrder.md)
-  * [Cancel Order](order/CancelOrder.md)
-  * [Refund](order/Refund.md)
-* FAQ
-  * [Customer FAQ](faq/CustomerFAQ.md)
-  * [Merchants FAQ](faq/MerchantFAQ.md)
+### Core Concepts
+* [Getting Started](faq/GetStarted.md) - Quick integration guide
+* [API Overview](faq/Overview.md) - Understanding MugglePay architecture
+* [Order Status](basic/OrderStatus.md) - Payment status definitions
+* [Error Codes](basic/ErrorCodes.md) - Common error handling
+* [Authentication](basic/Authentication.md) - API security and tokens
+
+### Payment Operations
+* [Create Order](order/CreateOrder.md) - Initialize payment requests
+* [Payment Callback](order/PaymentCallback.md) - Webhook notifications
+* [Get Order](order/GetOrder.md) - Retrieve order details
+* [Get Orders](order/GetOrders.md) - List all orders
+* [Checkout Order](order/CheckoutOrder.md) - Select payment currency
+* [Cancel Order](order/CancelOrder.md) - Cancel pending orders
+* [Refund](order/Refund.md) - Process refunds
+
+### Support & Resources
+* [Customer FAQ](faq/CustomerFAQ.md) - Common user questions
+* [Merchant FAQ](faq/MerchantFAQ.md) - Integration troubleshooting
+* [Self-Managed Solutions](self-managed-non-custodian.md) - Advanced deployment options
 
 <div align="center">
 
-<img src="https://dcdn.mugglepay.com/dt/pay/docs/mp-payment.png" alt="" width="250">
+<img src="https://dcdn.mugglepay.com/dt/pay/docs/mp-payment.png" alt="Payment Flow" width="250">
 
 </div>
 
-### License
+## Next Steps
 
-[BSD](https://www.wikiwand.com/en/BSD\_licenses) Copyright (c) 2018-present, Muggles Foundation All rights reserved.
+1. **Read the [Getting Started Guide](faq/GetStarted.md)** to understand the integration flow
+2. **Set up your [Merchant Account](https://merchants.mugglepay.com/)** to get your API keys
+3. **Review [Authentication](basic/Authentication.md)** to secure your API calls
+4. **Test with [Create Order](order/CreateOrder.md)** to build your first payment flow
+
+## License
+
+[BSD](https://www.wikiwand.com/en/BSD_licenses) Copyright (c) 2018-present, Muggles Foundation. All rights reserved.

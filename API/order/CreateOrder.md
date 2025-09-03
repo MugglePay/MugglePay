@@ -1,178 +1,250 @@
 # Create Order
 
-When the customer clicks the 'Pay with Crypto' button, he/she is going to the Crypto payment page payment\_url. Create Order API does two things.
+Create a new payment order to accept cryptocurrency payments from your customers. This is the primary API for initiating payments on MugglePay.
 
-Create Order API will do two things.
+## Overview
 
-* You need to provide basic payment info to display, including price\_amount, title, description. e.g. 9.9 USD for the monthly membership.
-* You will have a payment\_url page to direct the user. The page will contain the basic payment info.
-* You need to provide the success\_url (when the payment succeeds, the user will be redirected there), and callback\_url (we will tell the callback\_url when the payments succeed).
+The Create Order API performs two main functions:
 
-This is the ONLY API needed for your website.
+1. **Creates a payment invoice** with your specified details (price, title, description)
+2. **Generates a payment URL** where customers can complete their crypto payment
 
-***
+This is the **ONLY API** you need to integrate MugglePay payments into your website.
 
-## Definition
+## API Endpoint
 
-**POST** https://api.mugglepay.com/v1/orders
+**POST** `https://api.mugglepay.com/v1/orders`
 
-## Body Params
+## Request Parameters
 
-| Param               | Type     | Required | Description                                                                                                                                                                                                                                                          |
-| ------------------- | -------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| merchant\_order\_id | `string` |          | Merchant's custom order ID. We recommend using the orderID from your application. It's a unique order ID for your reference.                                                                                                                                         |
-| price\_amount       | `double` | Yes      | The price set by the merchant. Example: 9.99                                                                                                                                                                                                                         |
-| price\_currency     | `string` | Yes      | The currency in which you wish to price your merchandise; used to define price parameter. Example: USD, CNY. Default USD                                                                                                                                             |
-| pay\_currency       | `string` |          | Only use this field if you have the payment gateway enabled, and it will select the payment gateway. e.g. ETH, USDT, USDC                                                                                                                                            |
-| title               | `string` |          | Max 200 characters. Example: product title (Apple iPhone X), order id (OnlineStore Order #4321), cart id (Cart #00003552).                                                                                                                                           |
-| description         | `string` |          | More details about this order. Max 800 characters. It can be cart items, product details or other information. Example: 1 x Apple iPhone X, 1 x Apple MacBook Air.                                                                                                   |
-| callback\_url       | `string` |          | Send an automated message to Merchant URL when order status is changed. For example, when the user finishes the payment, we will make a request with your token to callback\_url. Example: http://onlinestore.com/payments/callback                                  |
-| cancel\_url         | `string` |          | Redirect to Merchant URL when the customer cancels the order. Example: http://onlinestore.com/cart                                                                                                                                                                   |
-| success\_url        | `string` |          | Redirect to Merchant URL after successful payment. Example: http://onlinestore.com/account/orders.                                                                                                                                                                   |
-| mobile              | `bool`   |          | Based on PC or Mobile Wap, we provide different links.                                                                                                                                                                                                               |
-| fast                | `bool`   |          | Return the payment url directly.                                                                                                                                                                                                                                     |
-| token               | `string` |          | Your custom token to validate Payment Callback. If it's provided, we will add it to the request of Payment Callback. This token is generated by the merchants, which is different from API\_TOKEN\_GET\_FROM\_ADMIN\_PORTAL (generated by MugglePay) in the headers. |
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `merchant_order_id` | `string` | No | Your custom order identifier. Recommended to use your application's order ID for easy tracking. |
+| `price_amount` | `double` | **Yes** | The payment amount in your specified currency (e.g., 9.99) |
+| `price_currency` | `string` | **Yes** | The currency for your pricing (e.g., USD, CNY). Defaults to USD if not specified. |
+| `pay_currency` | `string` | No | Specific cryptocurrency for payment (e.g., ETH, USDT, USDC). If not specified, customer can choose. |
+| `title` | `string` | No | Order title (max 200 characters). Examples: "Apple iPhone 15", "Order #12345", "Monthly Subscription" |
+| `description` | `string` | No | Detailed order description (max 800 characters). Examples: "1x iPhone 15 Pro, 1x AirPods" |
+| `callback_url` | `string` | No | Webhook URL for payment status updates. We'll notify this URL when payment status changes. |
+| `cancel_url` | `string` | No | Redirect URL when customer cancels payment. Usually your cart or checkout page. |
+| `success_url` | `string` | No | Redirect URL after successful payment. Usually your order confirmation page. |
+| `mobile` | `boolean` | No | Optimize payment page for mobile devices if set to `true`. |
+| `fast` | `boolean` | No | Return payment URL directly without additional processing. |
+| `token` | `string` | No | Custom token for webhook validation. Different from your API authentication token. |
 
-## Supported Tokens (Networks)
+## Supported Cryptocurrencies
 
-We support major stable tokens and networks, here are the popular tokens. If the pay\_currency as set, the invoice page will be checkout with the selected token. Here are the commonly used tokens.
+We support major stable tokens and networks. If `pay_currency` is specified, customers will only see that payment option.
 
-| pay\_currency | Token | Network               |
-| ------------- | ----- | --------------------- |
-| USDT\_ARB     | USDT  | Arbitrum              |
-| USDC\_ARB     | USDC  | Arbitrum              |
-| ETH\_ARB      | ETH   | Arbitrum              |
-| USDC\_ERC20   | USDC  | Ethereum              |
-| USDT\_ERC20   | USDT  | Ethereum              |
-| USDC\_SOL     | USDC  | Solana                |
-| USDC\_POL     | USDC  | Polygon               |
-| TON           | TON   | Ton Network           |
-| USDT\_TON     | USDT  | Ton Network           |
-| USDT\_BNB     | USDT  | BNB Chain             |
-| USDT\_CELO    | USDT  | Celo                  |
-| CUSD          | CUSD  | Celo                  |
-| USDC\_BASE    | USDC  | Base                  |
-| ETH\_BASE     | ETH   | Base                  |
-| USDT\_TON     | USDT  | Ton                   |
-| TON           | Ton   | Ton                   |
-|               |       | Stellar (Coming Soon) |
-|               |       | ICP (Coming Soon)     |
+| `pay_currency` | Token | Network | Description |
+|----------------|-------|---------|-------------|
+| `USDT_ARB` | USDT | Arbitrum | Fast and low-cost USDT transfers |
+| `USDC_ARB` | USDC | Arbitrum | Stable USDC on Arbitrum network |
+| `ETH_ARB` | ETH | Arbitrum | Native ETH on Arbitrum |
+| `USDC_ERC20` | USDC | Ethereum | USDC on Ethereum mainnet |
+| `USDT_ERC20` | USDT | Ethereum | USDT on Ethereum mainnet |
+| `USDC_SOL` | USDC | Solana | USDC on Solana network |
+| `USDC_POL` | USDC | Polygon | USDC on Polygon network |
+| `TON` | TON | Ton Network | Native TON cryptocurrency |
+| `USDT_TON` | USDT | Ton Network | USDT on Ton Network |
+| `USDT_BNB` | USDT | BNB Chain | USDT on BNB Smart Chain |
+| `USDT_CELO` | USDT | Celo | USDT on Celo network |
+| `CUSD` | CUSD | Celo | Celo Dollar stablecoin |
+| `USDC_BASE` | USDC | Base | USDC on Coinbase's Base network |
+| `ETH_BASE` | ETH | Base | ETH on Base network |
 
+**Coming Soon:** Stellar, ICP networks
 
+## Code Examples
 
-## Example
+### cURL Example
 
-### Request with Curl
-
-The easiest way to try this API:\
-Replace API\_TOKEN\_GET\_FROM\_ADMIN\_PORTAL with the one from backend portal.
-
-![](https://dcdn.mugglepay.com/docs/pics/get-api-en.png)
-
-```
+```bash
 curl -X POST \
   https://api.mugglepay.com/v1/orders \
-  -H 'content-type: application/json' \
-  -H 'token: API_TOKEN_GET_FROM_ADMIN_PORTAL' \
+  -H 'Content-Type: application/json' \
+  -H 'token: YOUR_API_TOKEN_HERE' \
   -d '{
-  "merchant_order_id": 100388,
-  "price_amount": 10,
-  "price_currency": "USD"
-}'
-
+    "merchant_order_id": "order_12345",
+    "price_amount": 29.99,
+    "price_currency": "USD",
+    "title": "Premium Subscription",
+    "description": "Monthly premium access to all features",
+    "callback_url": "https://yoursite.com/webhooks/payment",
+    "success_url": "https://yoursite.com/success",
+    "cancel_url": "https://yoursite.com/cart"
+  }'
 ```
 
-### Request with NodeJS
+### JavaScript Example
 
-```
-var request = require("request");
-
-var options = { method: 'POST',
-  url: 'https://api.mugglepay.com/v1/orders',
-  headers: { 
-     'token': 'API_TOKEN_GET_FROM_ADMIN_PORTAL',
-     'content-type': 'application/json' 
-     },
-  body: { 
-     merchant_order_id: '503a854998-6230-4338-adb7',
-     title: "Monthly Program x 1",
-     description: "Gaming for your family",
-     price_amount: 1,
-     price_currency: 'USD',
-     pay_currency: 'USDT_ARBI',
-     callback_url: "https://ecards.com/api/success",
-     cancel_url: "https://ecards.com/ecardstatus?status=cancel",
-     success_url: "https://ecards.com/ecardstatus?status=success",
-  },
-  json: true 
+```javascript
+const createOrder = async (orderData) => {
+  try {
+    const response = await fetch('https://api.mugglepay.com/v1/orders', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'token': 'YOUR_API_TOKEN_HERE'
+      },
+      body: JSON.stringify(orderData)
+    });
+    
+    const result = await response.json();
+    
+    if (result.status === 201) {
+      // Redirect customer to payment page
+      window.location.href = result.payment_url;
+    } else {
+      console.error('Order creation failed:', result.error);
+    }
+  } catch (error) {
+    console.error('Network error:', error);
+  }
 };
 
-request(options, function (error, response, body) {
-  if (error) throw new Error(error);
-
-  console.log(body);
+// Usage
+createOrder({
+  merchant_order_id: 'order_12345',
+  price_amount: 29.99,
+  price_currency: 'USD',
+  title: 'Premium Subscription',
+  description: 'Monthly premium access to all features',
+  callback_url: 'https://yoursite.com/webhooks/payment',
+  success_url: 'https://yoursite.com/success',
+  cancel_url: 'https://yoursite.com/cart'
 });
-
 ```
 
-## POST Body
+### Python Example
 
+```python
+import requests
+import json
+
+def create_order(order_data):
+    url = 'https://api.mugglepay.com/v1/orders'
+    headers = {
+        'Content-Type': 'application/json',
+        'token': 'YOUR_API_TOKEN_HERE'
+    }
+    
+    try:
+        response = requests.post(url, headers=headers, json=order_data)
+        result = response.json()
+        
+        if result['status'] == 201:
+            print(f"Order created successfully!")
+            print(f"Payment URL: {result['payment_url']}")
+            return result
+        else:
+            print(f"Order creation failed: {result['error']}")
+            return None
+            
+    except requests.exceptions.RequestException as e:
+        print(f"Network error: {e}")
+        return None
+
+# Usage
+order_data = {
+    'merchant_order_id': 'order_12345',
+    'price_amount': 29.99,
+    'price_currency': 'USD',
+    'title': 'Premium Subscription',
+    'description': 'Monthly premium access to all features',
+    'callback_url': 'https://yoursite.com/webhooks/payment',
+    'success_url': 'https://yoursite.com/success',
+    'cancel_url': 'https://yoursite.com/cart'
+}
+
+result = create_order(order_data)
 ```
+
+## Request Body Example
+
+```json
 {
-  "merchant_order_id": "503a854998-6230-4338-adb7",
-  "price_amount": 1.00,
+  "merchant_order_id": "order_12345",
+  "price_amount": 29.99,
   "price_currency": "USD",
-  "title": "Monthly Program x 1",
-  "description": "Game Pass Friends and Family, up to four players can enjoy Game Pass",
-  "callback_url": "https://ecards.com/api/success",
-  "cancel_url": "https://ecards.com/ecardstatus?status=cancel",
-  "success_url": "https://ecards.com/ecardstatus?status=success",
-  "token": "XI231SD02-SDFWE123D"
+  "title": "Premium Subscription",
+  "description": "Monthly premium access to all features",
+  "callback_url": "https://yoursite.com/webhooks/payment",
+  "success_url": "https://yoursite.com/success",
+  "cancel_url": "https://yoursite.com/cart",
+  "token": "custom_webhook_token_123"
 }
 ```
 
-## Result Format
+## Response Format
 
-### 200 OK
+### Success Response (200 OK)
 
-```
+```json
 {
-    "status": 201,
-    "order": {
-        "user_id": 32014,
-        "merchant_order_id": "503a854998-6230-4338-adb7",
-        "title": "Monthly Program x 1",
-        "description": "Game Pass Friends and Family, up to four players can enjoy Game Pass",
-        "callback_url": "https://ecards.com/api/success",
-        "cancel_url": "https://ecards.com/ecardstatus?status=cancel",
-        "success_url": "https://ecards.com/ecardstatus?status=success",
-        "price_amount": 1,
-        "price_currency": "USD",
-        "pay_amount": 1,
-        "pay_currency": "USD",
-        "order_id": "94be2b2a-2905-4857-b701-b04e57e84593",
-        "status": "NEW",
-        "created_at": "2019-04-24T16:57:35.416Z",
-        "updated_at": "2019-04-24T16:57:35.416Z"
-    },
-    "payment_url": "https://invoice.mugglepay.com/invoices?id=94be2b2a-2905-4857-b701-b04e57e84593"
+  "status": 201,
+  "order": {
+    "user_id": 32014,
+    "merchant_order_id": "order_12345",
+    "title": "Premium Subscription",
+    "description": "Monthly premium access to all features",
+    "callback_url": "https://yoursite.com/webhooks/payment",
+    "cancel_url": "https://yoursite.com/cart",
+    "success_url": "https://yoursite.com/success",
+    "price_amount": 29.99,
+    "price_currency": "USD",
+    "pay_amount": 29.99,
+    "pay_currency": "USD",
+    "order_id": "94be2b2a-2905-4857-b701-b04e57e84593",
+    "status": "NEW",
+    "created_at": "2024-01-15T10:30:00.000Z",
+    "updated_at": "2024-01-15T10:30:00.000Z"
+  },
+  "payment_url": "https://invoice.mugglepay.com/invoices?id=94be2b2a-2905-4857-b701-b04e57e84593"
 }
 ```
 
-### Error Format
+### Error Response (400 Bad Request)
 
-MugglePay Server will always return status 400. If API failed, it will return error\_code and error as its object.
-
-```
+```json
 {
-    "status": 400,
-    "error_code": "PARAMETERS_MISSING",
-    "error": "Missing parameters."
+  "status": 400,
+  "error_code": "PARAMETERS_MISSING",
+  "error": "Missing required parameters: price_amount, price_currency"
 }
 ```
 
-## Notes
+## Important Notes
 
-When the buyers create the order, they are redirected to payment\_url, where they can see the payment amount and then pay with crypto.
+- **Payment URL**: After successful order creation, redirect customers to the `payment_url` where they can select their preferred cryptocurrency and complete payment
+- **Settlement**: Payments in USD or stable currencies are settled immediately
+- **Order Expiry**: Orders expire after 60 minutes for crypto payments, 3 hours for fiat payments
+- **Webhooks**: Use the `callback_url` to receive real-time payment status updates
 
-Your received payments will be settled immediately if USD or stable currency is selected.
+## Tips & Best Practices
+
+### ✅ Do's
+- Always include a unique `merchant_order_id` for easy tracking
+- Use descriptive titles and descriptions for better customer experience
+- Test your webhook endpoints before going live
+- Handle both success and error responses appropriately
+
+### ❌ Common Mistakes
+- Forgetting to include the `Content-Type: application/json` header
+- Using the same `merchant_order_id` for multiple orders
+- Not handling webhook failures gracefully
+- Missing error handling for failed API calls
+
+## Related Documentation
+
+- [Payment Callback](PaymentCallback.md) - Learn how to handle payment notifications
+- [Order Status](basic/OrderStatus.md) - Understand different order states
+- [Authentication](basic/Authentication.md) - Secure your API calls
+- [Error Codes](basic/ErrorCodes.md) - Handle API errors properly
+
+## Next Steps
+
+1. **Test the API** with small amounts in sandbox mode
+2. **Set up webhook handling** to receive payment notifications
+3. **Implement error handling** for failed order creation
+4. **Review [Payment Callback](PaymentCallback.md)** to complete the payment flow
