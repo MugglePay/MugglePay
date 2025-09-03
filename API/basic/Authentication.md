@@ -14,8 +14,6 @@ All API calls to MugglePay require authentication using an API token. Keep your 
 2. Navigate to the API section
 3. Copy your unique API token
 
-![Get API Token](https://dcdn.mugglepay.com/docs/pics/get-api-en.png)
-
 ### Using Your API Token
 
 Include your API token in the `token` header of all authenticated requests:
@@ -56,7 +54,7 @@ Content-Type: application/json
 ### Increasing Limits
 
 To increase your rate limits:
-1. Create a ticket in the [Help Center](https://merchants.mugglepay.com/)
+1. Create a ticket in the [Help Center](https://merchants.mugglepay.com/help/ticketcreate)
 2. Contact customer service through the chat widget
 3. Provide details about your expected usage
 

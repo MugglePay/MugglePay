@@ -6,7 +6,7 @@ Understand the different states of your payment orders and how to handle each st
 
 Order status indicates the current state of a payment transaction. The most important statuses for merchants are **"NEW"** and **"PAID"**. When an order reaches "PAID" status, you should fulfill the customer's purchase.
 
-Every status change triggers a [Payment Callback](order/PaymentCallback.md) to notify your system.
+Every status change triggers a [Payment Callback](../order/PaymentCallback.md) to notify your system.
 
 ## Order Statuses
 
@@ -80,7 +80,7 @@ Every status change triggers a [Payment Callback](order/PaymentCallback.md) to n
 ## Handling Status Changes
 
 ### Automatic Notifications
-- **Webhooks**: Receive real-time updates via [Payment Callback](order/PaymentCallback.md)
+- **Webhooks**: Receive real-time updates via [Payment Callback](../order/PaymentCallback.md)
 - **Email notifications**: Optional email alerts for status changes
 - **Merchant Portal**: View all orders and statuses in real-time
 

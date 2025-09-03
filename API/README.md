@@ -67,4 +67,4 @@ Access your developer API key and manage crypto orders through the [Merchant Por
 
 ## License
 
-[BSD](https://www.wikiwand.com/en/BSD_licenses) Copyright (c) 2018-present, Muggles Foundation. All rights reserved.
+[BSD](https://www.wikiwand.com/en/BSD_licenses) Copyright (c) 2018-present, Muggles. All rights reserved.

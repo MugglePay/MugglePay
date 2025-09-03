@@ -66,4 +66,4 @@
 
 ## 版权
 
-[BSD](https://www.wikiwand.com/en/BSD_licenses) Copyright (c) 2018-present, Muggles Foundation. 保留所有权利。
+[BSD](https://www.wikiwand.com/en/BSD_licenses) Copyright (c) 2018-present, Muggles. 保留所有权利。
