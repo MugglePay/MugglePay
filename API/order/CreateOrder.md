@@ -21,8 +21,8 @@ This is the **ONLY API** you need to integrate MugglePay payments into your webs
 |-----------|------|----------|-------------|
 | `merchant_order_id` | `string` | No | Your custom order identifier. Recommended to use your application's order ID for easy tracking. |
 | `price_amount` | `double` | **Yes** | The payment amount in your specified currency (e.g., 9.99) |
-| `price_currency` | `string` | **Yes** | The currency for your pricing (e.g., USD, CNY). Defaults to USD if not specified. |
-| `pay_currency` | `string` | No | Specific cryptocurrency for payment (e.g., ETH, USDT, USDC). If not specified, customer can choose. |
+| `price_currency` | `string` | **Yes** | The currency for your pricing (e.g., USD). Defaults to USD if not specified. |
+| `pay_currency` | `string` | No | Specific cryptocurrency for payment (e.g., ETH_BASE, USDT_ARB, USDC_BASE). If not specified, customer can choose. |
 | `title` | `string` | No | Order title (max 200 characters). Examples: "Apple iPhone 15", "Order #12345", "Monthly Subscription" |
 | `description` | `string` | No | Detailed order description (max 800 characters). Examples: "1x iPhone 15 Pro, 1x AirPods" |
 | `callback_url` | `string` | No | Webhook URL for payment status updates. We'll notify this URL when payment status changes. |
@@ -30,11 +30,12 @@ This is the **ONLY API** you need to integrate MugglePay payments into your webs
 | `success_url` | `string` | No | Redirect URL after successful payment. Usually your order confirmation page. |
 | `mobile` | `boolean` | No | Optimize payment page for mobile devices if set to `true`. |
 | `fast` | `boolean` | No | Return payment URL directly without additional processing. |
-| `token` | `string` | No | Custom token for webhook validation. Different from your API authentication token. |
+| `token` | `string` | No | Custom token set by merchant for webhook validation. It's useful for merchant to verify the API is from MugglePay. It's different from the API authentication token from the Merchant Portal. |
 
 ## Supported Cryptocurrencies
 
 We support major stable tokens and networks. If `pay_currency` is specified, customers will only see that payment option.
+Note: pay_currency is different from price_currency. price_currency is the label currency like USD.
 
 | `pay_currency` | Token | Network | Description |
 |----------------|-------|---------|-------------|
