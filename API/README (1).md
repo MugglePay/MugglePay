@@ -8,15 +8,13 @@
 
 欢迎使用 MugglePay！一个全面的加密货币支付解决方案，让商户能够以最少的集成工作接受加密支付。
 
-![](http://dcdn.mugglepay.com/pay/media/git/git-license.png) ![](http://dcdn.mugglepay.com/pay/media/git/git-build.png) ![](http://dcdn.mugglepay.com/pay/media/git/git-codecov.png) ![](http://dcdn.mugglepay.com/pay/media/git/git-build.png)
-
 ## 快速开始
 
 几分钟内即可开始使用 MugglePay API。请查看我们的[快速开始指南](faq/GetStarted.md)来开始构建您的集成。
 
 <div align="center">
 
-<img src="https://dcdn.mugglepay.com/dt/pay/docs/mp-create.png" alt="创建订单流程" width="400">
+<img src="https://dcdn.mugglepay.com/dt/pay/docs/mp-create.png" alt="创建订单流程" width="400" style="margin: 20px 0;">
 
 </div>
 
@@ -26,7 +24,7 @@
 
 <div align="center">
 
-<img src="https://dcdn.mugglepay.com/dt/pay/docs/mp-login.png" alt="商户登录" width="250">
+<img src="https://dcdn.mugglepay.com/dt/pay/docs/mp-login.png" alt="商户登录" width="250" style="margin: 20px 0;">
 
 </div>
 
@@ -55,7 +53,7 @@
 
 <div align="center">
 
-<img src="https://dcdn.mugglepay.com/dt/pay/docs/mp-payment.png" alt="支付流程" width="250">
+<img src="https://dcdn.mugglepay.com/dt/pay/docs/mp-payment.png" alt="支付流程" width="250" style="margin: 20px 0;">
 
 </div>
 

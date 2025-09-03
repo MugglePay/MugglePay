@@ -38,10 +38,10 @@ MugglePay provides a pre-built payment page and complete checkout experience tha
 
 Choose from our pre-designed payment buttons or create your own:
 
-![Payment Buttons](http://dcdn.mugglepay.com/dt/pay/button/mpay-en.png)
-![Payment Buttons](http://dcdn.mugglepay.com/dt/pay/button/mpay-zh.png)
-![Payment Buttons](http://dcdn.mugglepay.com/dt/pay/button/mpay-icon.png)
-![Payment Buttons](http://dcdn.mugglepay.com/dt/pay/button/mpay-en-black.png)
+![Payment Buttons](http://dcdn.mugglepay.com/dt/pay/button/mpay-en.png){: width="100px"}
+![Payment Buttons](http://dcdn.mugglepay.com/dt/pay/button/mpay-zh.png){: width="100px"}
+![Payment Buttons](http://dcdn.mugglepay.com/dt/pay/button/mpay-icon.png){: width="33px"}
+![Payment Buttons](http://dcdn.mugglepay.com/dt/pay/button/mpay-en-black.png){: width="100px"}
 
 #### 2.2 Button Integration Example
 

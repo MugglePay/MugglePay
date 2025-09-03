@@ -8,7 +8,6 @@ English | [简体中文](README%20(1).md)
 
 Welcome to MugglePay! A comprehensive cryptocurrency payment solution that enables merchants to accept crypto payments with minimal integration effort.
 
-![](http://dcdn.mugglepay.com/pay/media/git/git-license.png) ![](http://dcdn.mugglepay.com/pay/media/git/git-build.png) ![](http://dcdn.mugglepay.com/pay/media/git/git-codecov.png) ![](http://dcdn.mugglepay.com/pay/media/git/git-build.png)
 
 ## Quick Start
 
@@ -16,7 +15,7 @@ Get started with MugglePay API in minutes. Follow our [Getting Started Guide](fa
 
 <div align="center">
 
-<img src="https://dcdn.mugglepay.com/dt/pay/docs/mp-create.png" alt="Create Order Flow" width="400">
+<img src="https://dcdn.mugglepay.com/dt/pay/docs/mp-create.png" alt="Create Order Flow" width="400" style="margin: 20px 0;">
 
 </div>
 
@@ -26,7 +25,7 @@ Access your developer API key and manage crypto orders through the [Merchant Por
 
 <div align="center">
 
-<img src="https://dcdn.mugglepay.com/dt/pay/docs/mp-login.png" alt="Merchant Login" width="250">
+<img src="https://dcdn.mugglepay.com/dt/pay/docs/mp-login.png" alt="Merchant Login" width="250" style="margin: 20px 0;">
 
 </div>
 
@@ -55,7 +54,7 @@ Access your developer API key and manage crypto orders through the [Merchant Por
 
 <div align="center">
 
-<img src="https://dcdn.mugglepay.com/dt/pay/docs/mp-payment.png" alt="Payment Flow" width="250">
+<img src="https://dcdn.mugglepay.com/dt/pay/docs/mp-payment.png" alt="Payment Flow" width="250" style="margin: 20px 0;">
 
 </div>
 
