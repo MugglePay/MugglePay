@@ -20,6 +20,6 @@
   * [Get Orders](order/GetOrders.md)
   * [Payment Callback (Webhook)](order/PaymentCallback.md)
   * [Refund](order/Refund.md)
-  * [AI Prompts (Cursor, Lovable, Bolt etc)](order/ai-prompts-cursor-lovable-bolt-etc.md)
+  * [AI Integration (Prompts for Cursor, Lovable, Bolt etc)](order/ai-prompts-cursor-lovable-bolt-etc.md)
 * [Self-managed (Non-Custodian)](self-managed-non-custodian.md)
 * [Media Kit](media-kit.md)
