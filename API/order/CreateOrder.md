@@ -25,6 +25,7 @@ This is the **ONLY API** you need to integrate MugglePay payments into your webs
 | `pay_currency` | `string` | No | Specific cryptocurrency for payment (e.g., ETH_BASE, USDT_ARB, USDC_BASE). If not specified, customer can choose. |
 | `title` | `string` | No | Order title (max 200 characters). Examples: "Apple iPhone 15", "Order #12345", "Monthly Subscription" |
 | `description` | `string` | No | Detailed order description (max 800 characters). Examples: "1x iPhone 15 Pro, 1x AirPods" |
+| `email` | `string` | No | Customer email address for payment receipt. When provided, a receipt email will be sent to this address after successful payment. |
 | `callback_url` | `string` | No | Webhook URL for payment status updates. We'll notify this URL when payment status changes. |
 | `cancel_url` | `string` | No | Redirect URL when customer cancels payment. Usually your cart or checkout page. |
 | `success_url` | `string` | No | Redirect URL after successful payment. Usually your order confirmation page. |
@@ -71,6 +72,7 @@ curl -X POST \
     "price_currency": "USD",
     "title": "Premium Subscription",
     "description": "Monthly premium access to all features",
+    "email": "customer@example.com",
     "callback_url": "https://yoursite.com/webhooks/payment",
     "success_url": "https://yoursite.com/success",
     "cancel_url": "https://yoursite.com/cart"
@@ -111,6 +113,7 @@ createOrder({
   price_currency: 'USD',
   title: 'Premium Subscription',
   description: 'Monthly premium access to all features',
+  email: 'customer@example.com',
   callback_url: 'https://yoursite.com/webhooks/payment',
   success_url: 'https://yoursite.com/success',
   cancel_url: 'https://yoursite.com/cart'
@@ -153,6 +156,7 @@ order_data = {
     'price_currency': 'USD',
     'title': 'Premium Subscription',
     'description': 'Monthly premium access to all features',
+    'email': 'customer@example.com',
     'callback_url': 'https://yoursite.com/webhooks/payment',
     'success_url': 'https://yoursite.com/success',
     'cancel_url': 'https://yoursite.com/cart'
@@ -170,6 +174,7 @@ result = create_order(order_data)
   "price_currency": "USD",
   "title": "Premium Subscription",
   "description": "Monthly premium access to all features",
+  "email": "customer@example.com",
   "callback_url": "https://yoursite.com/webhooks/payment",
   "success_url": "https://yoursite.com/success",
   "cancel_url": "https://yoursite.com/cart",
@@ -189,6 +194,7 @@ result = create_order(order_data)
     "merchant_order_id": "order_12345",
     "title": "Premium Subscription",
     "description": "Monthly premium access to all features",
+    "email": "customer@example.com",
     "callback_url": "https://yoursite.com/webhooks/payment",
     "cancel_url": "https://yoursite.com/cart",
     "success_url": "https://yoursite.com/success",
