@@ -114,7 +114,7 @@ If a customer has sent funds for one of the assets in this section, contact <sup
 | --- | --- | --- |
 | 2026-11-17 | 2026-11-24 | Stopping new orders for `TON`, `NOT`, `P2P_BTC`, `P2P_BCH`, `P2P_LTC`, `PYUSD_SOL`, `USDCE_POL`, `EOS` and `P2P_BUSD`. Alternatives: `USDT_TON` for native TON; `USDC_POL` or `USDT_POL` on Polygon; `USDC_SOL` or `USDT_SOL` for Solana stablecoins; no alternative for BTC. Past orders and existing balances are unchanged. |
 | 2026-11-17 | 2026-11-17 | Published this page. No change to which assets accept new orders. |
-| 2026-11-17 (first announced on this page) | 2026-11-14 | ETH on Ethereum, Base and Arbitrum, BNB, SOL, USDT on TRON and USDT on TON moved to a new processing path, together with the older codes `USDC`, `P2P_USDT_ERC20` and `USDT_ARBI`. Invoices created from 2026-11-14 (between 02:19 and 03:10 UTC, depending on the asset) are credited to your balance in USD (as USDC) at the order's price amount. Earlier orders and existing balances are unchanged. |
+| 2026-11-17 (first announced on this page) | 2026-11-14 | ETH on Ethereum, Base and Arbitrum, BNB, SOL, USDT on TRON and USDT on TON moved to a new processing path, together with the older codes `USDC`, `P2P_USDT_ERC20` and `USDT_ARBI`. Invoices created from 2026-11-14 are credited to your balance in USD (as USDC) at the order's price amount. Earlier orders and existing balances are unchanged. |
 | Not announced at the time; first recorded on this page on 2026-11-17 | 2026-08-06 | Stopped new orders for `USDV_ARB`, `USDT_CELO`, `CUSD_CELO`, `CUSD`, `ICP`, `CKBTC`, `CKETH`, `CKUSDC`, `XAUT`, `EURT`, `USDQ`, `USDR`. |
 
 ## Questions
