@@ -1,6 +1,6 @@
 # Cancel Order
 
-If the customer wants to switch to USDT after selecting BTC. She/he will cancel order and reselect. It’s done by MugglePay Invoice page. ONLY use this if you want to build an in-house payment without redirecting to MugglePay Invoice page.
+If the customer wants to switch to USDT after selecting ETH. She/he will cancel order and reselect. It’s done by MugglePay Invoice page. ONLY use this if you want to build an in-house payment without redirecting to MugglePay Invoice page.
 
 It is to avoid order conflict, if the client cannot get successful payment result or any response from MugglePay, it should send a cancel request to MugglePay to cancel the failed order.
 

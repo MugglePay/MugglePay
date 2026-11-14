@@ -22,7 +22,7 @@ This is the **ONLY API** you need to integrate MugglePay payments into your webs
 | `merchant_order_id` | `string` | No | Your custom order identifier. Recommended to use your application's order ID for easy tracking. |
 | `price_amount` | `double` | **Yes** | The payment amount in your specified currency (e.g., 9.99) |
 | `price_currency` | `string` | **Yes** | The currency for your pricing (e.g., USD). Defaults to USD if not specified. |
-| `pay_currency` | `string` | No | Specific cryptocurrency for payment (e.g., ETH_BASE, USDT_ARB, USDC_BASE). If not specified, customer can choose. |
+| `pay_currency` | `string` | No | Specific cryptocurrency for payment (e.g., ETH_BASE, USDT_ARB, USDC_BASE). If not specified, customer can choose. See [Supported Assets & Networks](../basic/supported-assets-and-networks.md) for all values. |
 | `title` | `string` | No | Order title (max 200 characters). Examples: "Apple iPhone 15", "Order #12345", "Monthly Subscription" |
 | `description` | `string` | No | Detailed order description (max 800 characters). Examples: "1x iPhone 15 Pro, 1x AirPods" |
 | `email` | `string` | No | Customer email address for payment receipt. When provided, a receipt email will be sent to this address after successful payment. |
@@ -35,27 +35,11 @@ This is the **ONLY API** you need to integrate MugglePay payments into your webs
 
 ## Supported Cryptocurrencies
 
-We support major stable tokens and networks. If `pay_currency` is specified, customers will only see that payment option.
-Note: pay_currency is different from price_currency. price_currency is the label currency like USD.
+If `pay_currency` is specified, customers will only see that payment option. Note: pay_currency is different from price_currency. price_currency is the label currency like USD.
 
-| `pay_currency` | Token | Network | Description |
-|----------------|-------|---------|-------------|
-| `USDT_ARB` | USDT | Arbitrum | Fast and low-cost USDT transfers |
-| `USDC_ARB` | USDC | Arbitrum | Stable USDC on Arbitrum network |
-| `ETH_ARB` | ETH | Arbitrum | Native ETH on Arbitrum |
-| `USDC_ERC20` | USDC | Ethereum | USDC on Ethereum mainnet |
-| `USDT_ERC20` | USDT | Ethereum | USDT on Ethereum mainnet |
-| `USDC_SOL` | USDC | Solana | USDC on Solana network |
-| `USDC_POL` | USDC | Polygon | USDC on Polygon network |
-| `TON` | TON | Ton Network | Native TON cryptocurrency |
-| `USDT_TON` | USDT | Ton Network | USDT on Ton Network |
-| `USDT_BNB` | USDT | BNB Chain | USDT on BNB Smart Chain |
-| `USDT_CELO` | USDT | Celo | USDT on Celo network |
-| `CUSD` | CUSD | Celo | Celo Dollar stablecoin |
-| `USDC_BASE` | USDC | Base | USDC on Coinbase's Base network |
-| `ETH_BASE` | ETH | Base | ETH on Base network |
+The list of `pay_currency` values, their networks and their current status is on [Supported Assets & Networks](../basic/supported-assets-and-networks.md). That page also explains order amount ranges, processing fees for USDT on TRON and USDT on TON, and which codes are deprecated.
 
-**Coming Soon:** Stellar, ICP networks
+`price_amount` must be at most 10,000 in the order's `price_currency`. A larger amount returns `PAY_PRICE_ERROR`.
 
 ## Code Examples
 
@@ -224,7 +208,7 @@ result = create_order(order_data)
 ## Important Notes
 
 - **Payment URL**: After successful order creation, redirect customers to the `payment_url` where they can select their preferred cryptocurrency and complete payment
-- **Settlement**: Payments in USD or stable currencies are settled immediately
+- **Settlement**: How each payment option is credited to your balance is described on [Supported Assets & Networks](../basic/supported-assets-and-networks.md)
 - **Order Expiry**: Orders expire after 60 minutes for crypto payments, 3 hours for fiat payments
 - **Webhooks**: Use the `callback_url` to receive real-time payment status updates
 

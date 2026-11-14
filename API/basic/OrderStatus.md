@@ -46,9 +46,7 @@ Every status change triggers a [Payment Callback](../order/PaymentCallback.md) t
 ### PENDING
 - **What it means**: Customer has initiated payment, transaction detected on blockchain
 - **Confirmation times**:
-  - **Bitcoin**: ~10 minutes
   - **Ethereum**: ~1 minute
-  - **EOS**: ~3 seconds
   - **Stable networks**: Usually 1-5 minutes
 - **Action needed**: Monitor for confirmation, don't fulfill order yet
 
@@ -101,10 +99,7 @@ Every status change triggers a [Payment Callback](../order/PaymentCallback.md) t
 - **Gas fees**: Higher during peak times
 - **Reliability**: Very high
 
-### Bitcoin Network
-- **Confirmation time**: 10-60 minutes (1-6 confirmations)
-- **Fees**: Varies with network congestion
-- **Reliability**: Very high
+The networks you can pay on are listed on [Supported Assets & Networks](supported-assets-and-networks.md).
 
 ## Troubleshooting
 

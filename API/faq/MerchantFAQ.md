@@ -24,8 +24,7 @@ If you want to integrate with MugglePay, we will send you $0.1 worth of USDT to 
 
 * Register a Web3 account (e.g. with MetaMask ), and have your address ready.
 * Register a MugglePay account, and create a Ticket in Help Center.
-* Write down your  address and we will send you USDV on Arbitrum network&#x20;
-  * Create order with pay\_currrency = USDV\_ARB
+* Write down your address in the Ticket. We will reply with the token and network to use for your test payment.
 
 ## What if I forgot my password?
 
@@ -33,11 +32,11 @@ If you’ve lost or forgotten your password, you can contact your account manage
 
 ## How do I withdraw money?
 
-You can withdraw USDT, USDC, BTC, EOS from the MugglePay Dashboard by clicking on the "Withdraw" button. On Tuesdays, we will automatically withdraw money for you. On the first withdrawal, you will need to contact your account manager to confirm the coin address.
+You can withdraw from the MugglePay Dashboard by clicking on the "Withdraw" button. The Dashboard shows the currencies and networks available for withdrawal. On Tuesdays, we will automatically withdraw money for you. On the first withdrawal, you will need to contact your account manager to confirm the coin address.
 
 ## What is the cost of withdrawal?
 
-EOS withdrawals are free. The withdrawal fee for USDT (OMINI) is $3.50.
+The withdrawal fee is shown in the MugglePay Dashboard before you confirm a withdrawal.
 
 ## How to exchange cryptocurrency for US dollars?
 

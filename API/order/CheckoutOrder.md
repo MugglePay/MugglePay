@@ -31,7 +31,7 @@ It's done by our side. ONLY use this if you want to build an in-house payment wi
 		<td>pay_currency</td>
 		<td><code>string</code></td>
 		<td>Yes</td>
-		<td>Payment cryptocurrency. It's currency selected by the user. For example, "EOS".</td>
+		<td>Payment cryptocurrency. It's currency selected by the user. For example, "USDC_BASE". See <a href="../basic/supported-assets-and-networks.md">Supported Assets &amp; Networks</a> for all values.</td>
 	</tr>
 </tbody>
 </table>
@@ -65,8 +65,8 @@ MugglePay Server will always return status 200 on success API.
     "invoice": {
         "invoice_id": "7707ce37-aad6-4a9d-94b4-821db7c7a958",
         "order_id": "8cbe9c00-7b0d-4b03-816f-e88a3c6bfa5c",
-        "pay_amount": 3.0712,
-        "pay_currency": "EOS",
+        "pay_amount": 9.9,
+        "pay_currency": "USDC_BASE",
         "status": "PAID",
         "created_at": "2019-04-24T16:40:36.350Z",
         "created_at_t": 1556124036350,

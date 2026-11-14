@@ -37,6 +37,7 @@ Access your developer API key and manage crypto orders through the [Merchant Por
 * [Get Order](order/GetOrder.md) - Retrieve order details
 * [Get Orders](order/GetOrders.md) - List all orders
 * [Checkout Order](order/CheckoutOrder.md) - Select payment currency
+* [Supported Assets & Networks](basic/supported-assets-and-networks.md): `pay_currency` values, networks and status
 * [Cancel Order](order/CancelOrder.md) - Cancel pending orders
 * [Refund](order/Refund.md) - Process refunds
 

@@ -43,6 +43,7 @@
 * [获取订单](order/GetOrder.md) - 检索订单详情
 * [获取所有订单](order/GetOrders.md) - 列出所有订单
 * [选择订单支付货币](order/CheckoutOrder.md) - 选择支付货币
+* [支持的资产与网络](basic/supported-assets-and-networks.md)：`pay_currency` 取值、网络与状态（英文）
 * [取消订单](order/CancelOrder.md) - 取消待处理订单
 * [退款](order/Refund.md) - 处理退款
 

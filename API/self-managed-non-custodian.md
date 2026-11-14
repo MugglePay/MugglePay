@@ -29,7 +29,6 @@ MugglePay (**Self-managed Commerce)** currently supports major stablecoins:
 * **On Ethereum:** Tether and USD Coin (USDT, USDC)
 * **On Arbitrum:** Tether and USD Coin (USDT, USDC)
 * On **Binance:** Tether (USDT bep20)
-* On **Celo:** Tether and Celo Dollars (USDT, cUSD)
 
 For those other tokens on Ton, Solana, Tron network, it's not supported on self-managed commerce yet, but it will be available on MugglePay.
 

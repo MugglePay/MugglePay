@@ -1,6 +1,6 @@
 # API Overview
 
-MugglePay expands your payment options by accepting instant payments of cryptocurrencies, including USDT, EOS, BTC, BCH, LTC and etc, without price fluctuations and chargeback risks.
+MugglePay expands your payment options by accepting instant payments of cryptocurrencies, including USDT and USDC on major networks, ETH, BNB and SOL (see [Supported Assets & Networks](../basic/supported-assets-and-networks.md)), without price fluctuations and chargeback risks.
 We provide a reliable payments solution that helps both you and your customers: safe, convenient and customer oriented.
 
 
