@@ -37,6 +37,8 @@ Response example:
 <tr><td>400</td><td>ORDER_MERCHANTID_EXIST</td><td>Order with same merchant_order_id exisits.</td></tr>
 <tr><td>400</td><td>ORDER_NOT_NEW</td><td>The current order is not new, and payment method cannot be switched.</td></tr>
 <tr><td>400</td><td>PAYMENT_NOT_AVAILABLE</td><td>The payment method is not working, please retry later.</td></tr>
+<tr><td>400</td><td>PAYMENT_OFFLINE</td><td>Current payment is offline. Please try other payment methods.</td></tr>
+<tr><td>400</td><td>PAYMENT_AMOUNT_OUT_OF_RANGE</td><td>This amount is outside the range accepted for the selected cryptocurrency. Please pay with another cryptocurrency.</td></tr>
 <tr><td>400</td><td>MERCHANT_CALLBACK_STATUS_WRONG</td><td>The current payment status not ready to send callback.</td></tr>
 <tr><td>400</td><td>PARAMETERS_MISSING</td><td>Missing parameters.</td></tr>
 <tr><td>400</td><td>PAY_PRICE_ERROR</td><td>Price amount or currency is not set correctly.</td></tr>
@@ -67,3 +69,5 @@ Response example:
 		</tr>
 	</tbody>
 </table>
+
+`PAY_PRICE_ERROR` is also returned when `price_amount` is above 10,000 in the order's `price_currency`. `PAYMENT_OFFLINE` means the selected `pay_currency` no longer accepts new orders, and `PAYMENT_AMOUNT_OUT_OF_RANGE` means the selected option does not accept the order amount. See [Supported Assets & Networks](supported-assets-and-networks.md).

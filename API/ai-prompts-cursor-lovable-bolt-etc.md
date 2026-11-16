@@ -89,7 +89,7 @@ curl -X POST \
      "description": "Gaming for your family",
      "price_amount": 1,
      "price_currency": "USD",
-     "pay_currency": "USDT_ARBI",
+     "pay_currency": "USDT_ARB",
      "callback_url": "https://ecards.com/api/success",
      "cancel_url": "https://ecards.com/ecardstatus?status=cancel",
      "success_url": "https://ecards.com/ecardstatus?status=success"
@@ -128,7 +128,7 @@ export function PaymentForm() {
       amount={29.99}
       currency="USD"
       onPayment={handlePayment}
-      supportedTokens={['USDT_TRC20', 'USDC_ARB', 'ETH_BASE']}
+      supportedTokens={['P2P_USDT_TRC20', 'USDC_ARB', 'ETH_BASE']}
     />
   );
 }
@@ -178,8 +178,10 @@ export default async function handler(req, res) {
 
 The `pay_currency` field is optional. If it's not set, users can select manually. Here are the supported `pay_currency` values:
 
-* **USDT**: `USDT_TRC20`, `USDT_ERC20`, `USDT_ARB`, `USDT_BNB`, `USDT_CELO`, `USDT_TON`
-* **USDC**: `USDC_ERC20`, `USDC_ARB`, `USDC_SOL`, `USDC_BASE`, `USDC_POL`, `USDC_XLM`
+* **USDT**: `P2P_USDT_TRC20`, `USDT_ERC20`, `USDT_ARB`, `USDT_BNB`, `USDT_POL`, `USDT_SOL`, `USDT_TON`
+* **USDC**: `USDC_ERC20`, `USDC_ARB`, `USDC_SOL`, `USDC_BASE`, `USDC_POL`, `USDC_BNB`, `USDC_XLM`
+* **Native coins**: `P2P_ETH`, `ETH_BASE`, `ETH_ARB`, `P2P_BNB`, `SOL`
+* Full list and status: [Supported Assets & Networks](basic/supported-assets-and-networks.md)
 
 #### Callbacks
 
@@ -189,11 +191,11 @@ If the payment is successful, it will trigger a callback to your `callback_url` 
 
 #### Cryptocurrencies
 
-* **USDT**: Tron (TRC20), Ethereum (ERC20), Arbitrum (ARB20), Celo, TON
-* **USDC**: Ethereum (ERC20), Arbitrum (ARB20), Solana, Base, Polygon, Stellar
-* **ETH**: Ethereum (ERC20), Arbitrum (ARB20), Base
-* **CUSD**: Celo Network
-* **PYUSD**: Solana Network
+* **USDT**: Tron (TRC20), Ethereum (ERC20), Arbitrum, BNB Chain, Polygon, Solana, TON
+* **USDC**: Ethereum (ERC20), Arbitrum, Solana, Base, Polygon, BNB Chain, Stellar
+* **ETH**: Ethereum, Arbitrum, Base
+* **BNB**: BNB Chain
+* **SOL**: Solana
 
 #### Integration Options
 

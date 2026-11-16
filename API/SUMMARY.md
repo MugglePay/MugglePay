@@ -6,6 +6,7 @@
   * [Authentication](basic/Authentication.md)
   * [HTTP Response and Error Codes](basic/ErrorCodes.md)
   * [Order Status](basic/OrderStatus.md)
+  * [Supported Assets & Networks](basic/supported-assets-and-networks.md)
 * [FAQs](faq/README.md)
   * [Customer FAQ](faq/CustomerFAQ.md)
   * [Get started](faq/GetStarted.md)

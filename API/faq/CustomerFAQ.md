@@ -20,13 +20,15 @@ Blockchain usually takes some time to confirm based on differet blockchain netwo
 
 When you pay from your crypto exchanges (Coinbase, Binance, Huobi, OKEx), they usually charge a withdrawal fee.
 
-For example, the withdraw fee charged by the exchange is 1 USDT for USDT-Tron and 16 USDT for USDT-Ethereum. The withdrawal fee should be covered by yourself.
+The withdrawal fee is set by your exchange and changes over time. Check the fee your exchange shows before you send. The withdrawal fee should be covered by yourself.
 
-For example, if your order is 128.8 USDT and you want to pay USDT-TRC20 from Binance. Currently Binance USDT-TRC20 withdrawal fee is 1 USDT. MugglePay need to receive exactly 128.8, and you should withdraw 129.8 USDT from Binance to cover the withdrawal fee.
+For example, if your order is 128.8 USDT, MugglePay needs to receive exactly 128.8 USDT. Withdraw 128.8 USDT plus your exchange's withdrawal fee, so that 128.8 USDT arrives.
 
 If you do not pay the withdrawal fee, and merchant will receive less amount. The order will be marked as expired after 60 minutes. Please contact our support email as soon as possible.
 
 The solution might be paying the missing fee (e.g. 1 USD as the example), or refund the rest of the money (you might need to cover the cost).
+
+Supported tokens and networks are listed on [Supported Assets & Networks](../basic/supported-assets-and-networks.md). Pay on the network shown on the invoice.
 
 ## Order not confirmed - Top Reason 2 (Credit Card)
 
@@ -46,9 +48,7 @@ If you have not received a confirmation like the screenshots above, the money mi
 
 By default the payment time window is 10 minutes to 1 hour based on the merchant order configations. However, blockchain payments sometimes take a longer time, even hours.&#x20;
 
-If you pay with stablecoins like USDC, USDT on Tron, Ethereum, Arbitrum, we will mark the order as paid automatically within 24 hours. Even though are orders are expired.&#x20;
-
-If you pay the invoice for more than 24 hours, it will show as expired after the payment window.
+A payment that arrives after the invoice has expired may not be credited automatically. If that happens, contact support with the details below.
 
 If order shows expired
 

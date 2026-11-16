@@ -18,7 +18,7 @@ Welcome to the MugglePay FAQ section. Here you'll find answers to common questio
 - **[Customer FAQ](CustomerFAQ.md)** - Frequently asked questions from customers
 
 ### Supported Tokens & Networks
-- **[Supported Tokens](SupportedTokens.md)** - Complete list of supported cryptocurrencies and networks with pay_currency codes
+- **[Supported Assets & Networks](../basic/supported-assets-and-networks.md)**: `pay_currency` values, networks and status
 
 ## Quick Navigation
 
